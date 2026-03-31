@@ -1,0 +1,24 @@
+{
+  "img_id": "cla820gmes5nn071u4li1c0zd",
+  "class": "ulcerative_colitis",
+  "prediction": 1.0,
+  "all_predictions": {
+    "oesophagitis": 2.229375885287599e-11,
+    "cecum": 1.208545485908985e-10,
+    "irrelaevnat": 1.8776684651555797e-09,
+    "z_line": 3.8801882713823677e-13,
+    "polyp": 0.9690825343132019,
+    "ulcerative_colitis": 1.0
+  },
+  "regions": [
+    {
+      "bbox": [
+        149,
+        77,
+        322,
+        444
+      ],
+      "area": 86512
+    }
+  ]
+}

@@ -1,0 +1,4756 @@
+{
+  "class": "oesophagitis",
+  "total_processed": 950,
+  "results": [
+    {
+      "img_id": "clb0kvxve90jk074yecnxbybc",
+      "prediction": 0.30489054322242737,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw191hw074ya91hab8o",
+      "prediction": 0.9999840259552002,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwh9274074y4duh7185",
+      "prediction": 0.23633582890033722,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwm92eo074y8zkzbkqk",
+      "prediction": 0.9999780654907227,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw691oc074y1fjpfgec",
+      "prediction": 0.9950281977653503,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw391lg074yfo2c26o0",
+      "prediction": 0.9999465942382812,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92dc074ybmezf2dn",
+      "prediction": 2.1171812747411423e-08,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuw8zt8074ydgee41wh",
+      "prediction": 0.3273565173149109,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90o4074ygwfk2khl",
+      "prediction": 0.999990701675415,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvi90qo074y7gm90dfq",
+      "prediction": 0.9907364249229431,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92ew074yhil27cw5",
+      "prediction": 0.9750176072120667,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv79074074y19cdf7ne",
+      "prediction": 0.4132184088230133,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvu918o074yfxlv0p7p",
+      "prediction": 0.031672388315200806,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw691pk074y76ldfqpg",
+      "prediction": 3.1556252836489884e-12,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuw8zsw074yc0dmf2ar",
+      "prediction": 0.22913658618927002,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv8909k074yg9zq6h2y",
+      "prediction": 0.9692760109901428,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvt916w074y2qc14fsg",
+      "prediction": 0.9999583959579468,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991tg074y840m4gjy",
+      "prediction": 0.9998829364776611,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvi90qs074y7agh8ilw",
+      "prediction": 0.9998138546943665,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvp911w074yg2mdg20e",
+      "prediction": 0.0027280086651444435,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvv919o074ygefrey2p",
+      "prediction": 0.005494475364685059,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv5904c074yhaq90gjr",
+      "prediction": 0.9995235204696655,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxux8zu0074y1lu0c11r",
+      "prediction": 0.9998188614845276,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwe922o074ygw0sebkl",
+      "prediction": 0.9151796698570251,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxun8zm0074y06ew34vx",
+      "prediction": 0.11795441061258316,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90ts074y2fcfdd89",
+      "prediction": 1.170558334706584e-06,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxv6906k074y56xz8cyc",
+      "prediction": 1.1858384823426604e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd9220074y06z9hyzi",
+      "prediction": 0.99993896484375,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvy91e0074ya1rrfq1b",
+      "prediction": 0.9745916724205017,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv08zxs074y6zlfge3d",
+      "prediction": 0.9999611377716064,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw391k8074y2o7iepif",
+      "prediction": 0.9981480836868286,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvy91ds074y7nc24z45",
+      "prediction": 0.9990946054458618,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwe922g074y9nle6mc0",
+      "prediction": 5.351632914596394e-09,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxvr914w074ygvhf8wwu",
+      "prediction": 0.00022595084737986326,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwe9238074yb8mhabjq",
+      "prediction": 0.021864663809537888,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd9228074y30wf0sqj",
+      "prediction": 0.10219471156597137,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw991tk074ybvmn9axs",
+      "prediction": 0.9497573375701904,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwb91xs074y4wa523k1",
+      "prediction": 1.4333167541735747e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90mo074y0dkjhos6",
+      "prediction": 0.9995405673980713,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990bk074y3d9g2t6m",
+      "prediction": 0.2273595780134201,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvt916g074ygh3q368i",
+      "prediction": 0.6834889650344849,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw091g4074yhobl5pba",
+      "prediction": 0.9977486729621887,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvl90x4074yd3joclty",
+      "prediction": 6.948168334020011e-07,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvw91b8074y66zddfp3",
+      "prediction": 0.999897837638855,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv7906o074y82j11tg4",
+      "prediction": 0.9437833428382874,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwj929c074yhbmvg5fy",
+      "prediction": 0.0014215505216270685,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvt9170074yg4ieeb2v",
+      "prediction": 0.5682106018066406,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv18zyg074yg38eg76m",
+      "prediction": 0.43527477979660034,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvx91bs074y76hp3pkp",
+      "prediction": 0.059375911951065063,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxun8zkk074y1d4o168y",
+      "prediction": 7.627089644302032e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuq8zms074y8j8u68vg",
+      "prediction": 0.999459445476532,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw291jo074y2gyo8adu",
+      "prediction": 0.5748592019081116,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuo8zm8074ycugdbvq1",
+      "prediction": 0.992211103439331,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwe923c074y20ip5n0t",
+      "prediction": 0.05954159051179886,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxva90ck074ycuib3gx0",
+      "prediction": 0.0004368929658085108,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd920w074y4kaah05o",
+      "prediction": 0.9192259907722473,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf923k074yharv7ao5",
+      "prediction": 0.9999958276748657,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwi928c074y9zd1giek",
+      "prediction": 0.9999812841415405,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491mo074ya8mv48gi",
+      "prediction": 0.9692614674568176,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwb91xk074ydr93azjz",
+      "prediction": 4.784343400388025e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuu8zqk074y2agi34ee",
+      "prediction": 0.9999979734420776,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwb91yo074y425w97zl",
+      "prediction": 0.016671182587742805,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv59034074y3mvo42nw",
+      "prediction": 0.4904322922229767,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvf90lw074y2dav4gy7",
+      "prediction": 0.152795672416687,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw691pg074y52be8g3a",
+      "prediction": 0.5627614259719849,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwr92mw074y06hp7pxn",
+      "prediction": 0.39401137828826904,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxv18zyk074y1xa29o15",
+      "prediction": 3.278782969573513e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwj92ak074y0n94ahj0",
+      "prediction": 0.00010990716691594571,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvu9188074yan09d9gk",
+      "prediction": 0.9999886751174927,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92l0074ybfzza3i7",
+      "prediction": 8.142930710164364e-06,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxvb90do074y3cc64vqt",
+      "prediction": 0.9999898672103882,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvq913k074yf1zbakze",
+      "prediction": 0.9996408224105835,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv4901o074y8ygaf737",
+      "prediction": 4.149027517996728e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91x0074ygen2frlc",
+      "prediction": 0.9999895095825195,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv18zyw074yczp6gxp2",
+      "prediction": 1.7161186406156048e-05,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwd9210074y17k692ii",
+      "prediction": 0.8743418455123901,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891sw074y7zk9etes",
+      "prediction": 0.3592391312122345,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvc90gw074y0gyk96cd",
+      "prediction": 6.5987278503598645e-06,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwi927s074y8wzdgsw2",
+      "prediction": 2.9410307433863636e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90k0074y15po5cmu",
+      "prediction": 0.6860595345497131,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwb91yg074y0do5cjzr",
+      "prediction": 0.014103764668107033,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90kc074y6yaecqgy",
+      "prediction": 0.2409803867340088,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90ek074y8kpm7948",
+      "prediction": 0.0016251550987362862,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv69058074yei9pfqki",
+      "prediction": 0.8174106478691101,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891sc074ydh4a8bxa",
+      "prediction": 0.9854554533958435,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwp92jc074ygz0h61kq",
+      "prediction": 0.9998137354850769,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv6906g074y19bxf1ei",
+      "prediction": 0.8667899966239929,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuv8zs8074yhkrwa81m",
+      "prediction": 0.030157430097460747,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuu8zqo074y61oi4qf9",
+      "prediction": 0.00010583539551589638,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv8908c074y4axv51cb",
+      "prediction": 0.7360332012176514,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxut8zpk074ycwmgdckd",
+      "prediction": 0.22546204924583435,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxw891rs074ygk5209y7",
+      "prediction": 1.8159536097073214e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwo92hk074y455uaxuh",
+      "prediction": 0.9999842643737793,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791qs074yda1r0lmw",
+      "prediction": 0.9999703168869019,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90lc074yef2f0ua1",
+      "prediction": 2.4962629296965133e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvc90gc074yd6aq25qk",
+      "prediction": 0.9418410658836365,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90q8074yg828hcl0",
+      "prediction": 0.35122790932655334,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc920g074y18a2d1jn",
+      "prediction": 3.578043816787613e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvr914g074yc9ud1o38",
+      "prediction": 2.4768883832848587e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc91z8074y7h9vget9",
+      "prediction": 0.16316650807857513,
+      "num_regions": 6
+    },
+    {
+      "img_id": "clb0kvxvk90u8074y10496pr9",
+      "prediction": 0.8893936276435852,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwb91y0074y0gsiezaa",
+      "prediction": 0.9834312796592712,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891ro074y0t7e3n9z",
+      "prediction": 0.9996616840362549,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvx91cc074y8w7za3nu",
+      "prediction": 0.9842624664306641,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv4902s074y5s0542oe",
+      "prediction": 0.7307624816894531,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv69050074y4dtl6zbt",
+      "prediction": 0.9977673292160034,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuz8zvw074y8jmz3ibu",
+      "prediction": 0.9167696237564087,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuu8zr4074y8e5m9m80",
+      "prediction": 0.0013877578312531114,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxun8zlw074y9mo234n7",
+      "prediction": 0.997759222984314,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuz8zw0074y99tt59jn",
+      "prediction": 0.5970797538757324,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw291jc074ybr3a8eds",
+      "prediction": 0.9939113855361938,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwo92j0074yb38bgke3",
+      "prediction": 0.9292486310005188,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90vc074y037obpbz",
+      "prediction": 1.157540108209787e-08,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxw591o0074y8t6f68g9",
+      "prediction": 0.9996774196624756,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvd90i0074yayywbnv0",
+      "prediction": 0.04740428179502487,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuq8zmk074y0xdh7xr7",
+      "prediction": 0.29052838683128357,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791r8074yf9x5a9d8",
+      "prediction": 6.946815847186372e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90oo074yavgs47u0",
+      "prediction": 0.12315255403518677,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf924o074y2x5qaz1u",
+      "prediction": 0.999545156955719,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvu917o074y3ejb1sxw",
+      "prediction": 0.02414640784263611,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvn90yg074y14e10rex",
+      "prediction": 0.9884210824966431,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv08zww074y0ue738i4",
+      "prediction": 1.1250082110336734e-07,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwa91v8074yhgoaaeej",
+      "prediction": 0.6712059378623962,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90jg074y814sckjn",
+      "prediction": 0.9220591187477112,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwo92ho074y3eh3h9xq",
+      "prediction": 3.8929185396108235e-12,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxw791ps074ydpns0ido",
+      "prediction": 0.088991679251194,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvz91fo074y60w48iy2",
+      "prediction": 0.039829153567552567,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxut8zq0074ydf7n8q4n",
+      "prediction": 0.9993676543235779,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv08zxw074y66p98vyy",
+      "prediction": 0.7706776261329651,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv89090074ybpe91eco",
+      "prediction": 0.09491678327322006,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxw991ts074y1s2yeddq",
+      "prediction": 0.999419093132019,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv08zxo074y796bdumg",
+      "prediction": 0.9455592036247253,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvq912w074y22af1sjs",
+      "prediction": 0.9776952862739563,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvd90hc074ydx8sfgk9",
+      "prediction": 0.9872342944145203,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92lc074y3b2qf5m8",
+      "prediction": 0.006015889346599579,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwi927w074y17xf8hvt",
+      "prediction": 0.9916967153549194,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxut8zpo074ye1qnfi8m",
+      "prediction": 0.007714645471423864,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90to074y2c1r47br",
+      "prediction": 0.7086256146430969,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwe9230074y6ikp8d8c",
+      "prediction": 0.07535777986049652,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc91yw074y36nhd5qz",
+      "prediction": 0.00025185488630086184,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90mg074y8yk1ghzr",
+      "prediction": 0.11250504851341248,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw091gk074y2eda89jg",
+      "prediction": 7.74626914790133e-06,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxw391ks074y7cn169rr",
+      "prediction": 0.052037693560123444,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvi90r0074y3dip401r",
+      "prediction": 0.9813331961631775,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv3900k074yer95b9pz",
+      "prediction": 0.28020772337913513,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92lo074y0oxy68g9",
+      "prediction": 9.780172405271514e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwn92gc074y6yho2akf",
+      "prediction": 5.57813052637357e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvo910w074ygbwl12ww",
+      "prediction": 0.00560264615342021,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxv59040074y5n4pbbi4",
+      "prediction": 0.9940599799156189,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990ao074y0sxr4p42",
+      "prediction": 0.999996542930603,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791qg074y1znsavm7",
+      "prediction": 0.9995391368865967,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvm90y4074yf50vf5nq",
+      "prediction": 0.004260641522705555,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv79078074y9nnrg7vr",
+      "prediction": 0.7729783058166504,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvy91cw074y0j1w010l",
+      "prediction": 0.999985933303833,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwn92go074y4rwc60ew",
+      "prediction": 0.4804964065551758,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv3900s074y30z72u38",
+      "prediction": 0.0023629239294677973,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvr9144074y20fog9p7",
+      "prediction": 0.06573870778083801,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvu917g074y7h00661i",
+      "prediction": 4.7656190872658044e-05,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv4902g074y9ugv9pi0",
+      "prediction": 0.9896935820579529,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw891t8074yfa5s8jyq",
+      "prediction": 0.998233437538147,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvs915k074y1ezpa3xh",
+      "prediction": 0.9974109530448914,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92f0074yg52f5i0q",
+      "prediction": 0.9827315211296082,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91ws074y8flu4t9c",
+      "prediction": 0.0002379095967626199,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991tc074yditv7d53",
+      "prediction": 0.0011156857945024967,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuy8zv4074y4ko73ya3",
+      "prediction": 0.8950257301330566,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwg925c074y86wefqdj",
+      "prediction": 0.0002076059754472226,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvl90ws074y5yzn8ewu",
+      "prediction": 0.07905550301074982,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvn90ys074y3vzt2e8r",
+      "prediction": 0.14247649908065796,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxus8zos074y4e4t28qd",
+      "prediction": 0.9143117070198059,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990a8074ycugbdmut",
+      "prediction": 0.24057257175445557,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw191ig074ygwyyfb1y",
+      "prediction": 9.854235031525604e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuq8zmw074ya45k4874",
+      "prediction": 1.0,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990ak074yel11h7bn",
+      "prediction": 4.94800422856656e-10,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw091gw074y0eag9a5s",
+      "prediction": 0.001220200676470995,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxux8zuc074y6iy42oft",
+      "prediction": 0.9997108578681946,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv6905o074y93pdfoc4",
+      "prediction": 0.9980145692825317,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwe922c074y1dxebm41",
+      "prediction": 0.9997479319572449,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791qc074yh5xkc5jq",
+      "prediction": 0.050840023905038834,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwj92a8074yg5y1hxf4",
+      "prediction": 0.5056743621826172,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv5904s074y97qacm3l",
+      "prediction": 0.8048244714736938,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90sk074y7s8cg5g1",
+      "prediction": 0.9999725818634033,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuy8zv0074y7ofpeene",
+      "prediction": 5.185245299799135e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwn92fw074yg1ou05ok",
+      "prediction": 0.9881029725074768,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv7907k074yhv4610cd",
+      "prediction": 8.413874041934832e-09,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwc91zw074y68zqfa9c",
+      "prediction": 0.9997267127037048,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc91zc074y0q7i61jf",
+      "prediction": 0.4889456033706665,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991uk074yd35d1i3g",
+      "prediction": 5.209941367212423e-10,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv5903k074y22v4as0s",
+      "prediction": 4.5226137501686026e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491mg074yhrcv9tvx",
+      "prediction": 3.645110336947255e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuv8zrk074ye0xpeup4",
+      "prediction": 0.9964479207992554,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvp912c074yayjq5b8a",
+      "prediction": 0.00046060894965194166,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwj92ao074y7bztd6er",
+      "prediction": 0.05308160185813904,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92dg074y1snfdfab",
+      "prediction": 0.995306670665741,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90ew074y2i8j8at5",
+      "prediction": 0.15949201583862305,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvx91bw074y5pq166he",
+      "prediction": 0.0011914740316569805,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwb91x8074y739s7pkg",
+      "prediction": 0.0010306809563189745,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw591n8074y5nwz4e1a",
+      "prediction": 0.21489284932613373,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw591nc074ycgw2fmz8",
+      "prediction": 4.155097485636361e-06,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxus8zo8074y6pz410z6",
+      "prediction": 0.9911354780197144,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw091gc074yci790j7a",
+      "prediction": 0.9999189376831055,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92e8074y8kxlai4n",
+      "prediction": 0.9453138113021851,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvm90xw074ydc33evay",
+      "prediction": 0.9876611232757568,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90js074yfcft04k6",
+      "prediction": 0.5164645314216614,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwk92cc074yfa051m7o",
+      "prediction": 0.9932221174240112,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991u4074yafxhchc0",
+      "prediction": 0.8416955471038818,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxux8zu4074yc3afaavx",
+      "prediction": 0.9742626547813416,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwj929g074yhca23pss",
+      "prediction": 0.0007826366345398128,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90j8074y80pqalev",
+      "prediction": 6.942919128505309e-09,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvt916s074y8lwl3jt4",
+      "prediction": 4.6688036547948286e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw391lc074yce527724",
+      "prediction": 0.9593402147293091,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvl90w0074y3v8t9ej7",
+      "prediction": 0.0766090378165245,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxva90cc074y4mc5gnex",
+      "prediction": 0.9616166353225708,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvz91fs074y4la9exqj",
+      "prediction": 0.6122183203697205,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90l8074y8reqhehu",
+      "prediction": 1.0290922602962382e-07,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvo9110074y5epsd5os",
+      "prediction": 0.08917076140642166,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw991uw074ydryz7t72",
+      "prediction": 0.9997597336769104,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv28zzs074y1xxyfl32",
+      "prediction": 0.4846145510673523,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92lw074yehu3bofl",
+      "prediction": 2.4681876098497924e-08,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxur8znw074y43k48d9y",
+      "prediction": 1.4710698437170322e-08,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxvq913w074y48zz85st",
+      "prediction": 0.18737481534481049,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvu9184074y4oh7asq9",
+      "prediction": 4.678002483160526e-07,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvv919s074y27ik4rh0",
+      "prediction": 0.2483358383178711,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw391kk074y3lp6gr46",
+      "prediction": 0.9999974966049194,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwi927o074y6612c4c5",
+      "prediction": 0.9980599284172058,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91a0074y0qkme0e6",
+      "prediction": 4.315825776757265e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvo9100074yfqt61zy9",
+      "prediction": 4.7261544011689693e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvn90yw074y7k9t23hf",
+      "prediction": 1.6353591263396083e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491lo074y512b5xdy",
+      "prediction": 0.09824749827384949,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxva90d0074yctoe143i",
+      "prediction": 3.919375103578204e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvy91co074y159qf776",
+      "prediction": 0.0058944374322891235,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwg925s074yb1u83tpj",
+      "prediction": 1.9481209164950997e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw191is074y79aj53ub",
+      "prediction": 0.9435129761695862,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwk92b8074ybz7x31eg",
+      "prediction": 0.21074308454990387,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvc90gs074y8ob781xw",
+      "prediction": 0.15103548765182495,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvl90wk074yevu50hef",
+      "prediction": 0.2508700489997864,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91ao074ydcyk95w7",
+      "prediction": 0.9884966611862183,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791qk074y7797bgit",
+      "prediction": 0.9898380041122437,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91bc074yhkkq9kjn",
+      "prediction": 5.357464694100145e-09,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvn90zk074ybe8retii",
+      "prediction": 0.9975031018257141,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvu917w074y7kfn0iga",
+      "prediction": 0.835698127746582,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwh926o074ygo262iif",
+      "prediction": 0.009906778112053871,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvz91ek074ycxuq03rg",
+      "prediction": 0.0964750126004219,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv18zy0074yd3bcc08u",
+      "prediction": 0.9308677911758423,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwh927k074y50oqft3a",
+      "prediction": 0.24001476168632507,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwn92gw074y94g3g0lk",
+      "prediction": 0.013142523355782032,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90p0074ygq365yzg",
+      "prediction": 0.9985515475273132,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvz91ew074yf9d37i2x",
+      "prediction": 0.9997332692146301,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv5903c074ydb2afxqh",
+      "prediction": 0.9703094959259033,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw691ow074yfcq1auo4",
+      "prediction": 0.7764478921890259,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwb91x4074y8i6ab6s3",
+      "prediction": 0.0026719511952251196,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwh927g074ydnysgf8a",
+      "prediction": 0.9993830919265747,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92ec074yetya6a4k",
+      "prediction": 0.014488953165709972,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv59044074y99as44qx",
+      "prediction": 0.9972061514854431,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvz91fg074ygzazevyx",
+      "prediction": 0.9990848302841187,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvz91es074yggpw06m9",
+      "prediction": 0.9996247291564941,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxva90d8074y17qv6r2y",
+      "prediction": 0.9999231100082397,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991u8074y510pg3i3",
+      "prediction": 0.09741594642400742,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvz91f0074y2wy74ns7",
+      "prediction": 0.9969485402107239,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvq9134074y41anax4e",
+      "prediction": 0.021618293598294258,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuo8zm4074ye32eai3t",
+      "prediction": 0.11484777182340622,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw191ic074ybiac1wn8",
+      "prediction": 0.033087220042943954,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv7907w074ycrcvh6to",
+      "prediction": 0.9926645159721375,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvy91d4074ycbhp00cf",
+      "prediction": 0.972615659236908,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw091g8074ygpuph089",
+      "prediction": 0.015303530730307102,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxva90dk074ya2u53i5o",
+      "prediction": 0.8019458055496216,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvn90zo074yawkj5e2l",
+      "prediction": 0.9968165755271912,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90fc074y862k88z9",
+      "prediction": 8.613370461318937e-09,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw091hc074yfa99aw4m",
+      "prediction": 0.8978915810585022,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxva90dc074y7z3zarjw",
+      "prediction": 0.48224109411239624,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvg90n8074ygiyj7f84",
+      "prediction": 0.9980777502059937,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc91z4074yb60q46uj",
+      "prediction": 0.005529398564249277,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvx91bk074y1md098y8",
+      "prediction": 0.006959342397749424,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxv6905s074yfyywhtuu",
+      "prediction": 0.002240378875285387,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxut8zp8074y37byce47",
+      "prediction": 0.0030565187335014343,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxva90cs074yc4414wlw",
+      "prediction": 0.13336774706840515,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91b4074yevpk430g",
+      "prediction": 0.9999496936798096,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuy8zvk074y8v9e9m25",
+      "prediction": 0.9999994039535522,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvc90h8074ydrhndkkk",
+      "prediction": 0.5767367482185364,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv8909s074y3mqmbwxn",
+      "prediction": 0.34361469745635986,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90ug074y8qag5uen",
+      "prediction": 0.9999822378158569,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92ds074y42121siv",
+      "prediction": 0.0018749911105260253,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw191io074y13iv4auv",
+      "prediction": 0.15536700189113617,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv18zz0074y4120hdg9",
+      "prediction": 1.0,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv8908s074yf1acgvry",
+      "prediction": 0.9878329038619995,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxur8zno074y200b0bfa",
+      "prediction": 0.98005211353302,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvs9160074y7pmr1x8m",
+      "prediction": 0.5776121020317078,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvy91do074ycn9kbmqg",
+      "prediction": 0.04361886531114578,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvc90g0074y2xvf9cmq",
+      "prediction": 0.2945999503135681,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvv9194074yc8snefi4",
+      "prediction": 0.9968511462211609,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw091h0074y2ehjaioh",
+      "prediction": 2.535365092626307e-05,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwb91yc074y88bwc9r8",
+      "prediction": 0.16803686320781708,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw291k4074y8267hchw",
+      "prediction": 0.9641907215118408,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv69060074y2isr622s",
+      "prediction": 2.0762051917699864e-06,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwr92ng074yc6jndr8l",
+      "prediction": 1.0326084520784207e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvq913c074ydhcq65x2",
+      "prediction": 4.2589068272036457e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990a4074y8g29djvu",
+      "prediction": 0.999921441078186,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90v4074y5fhwe7kg",
+      "prediction": 0.000491857819724828,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvd90i4074y978yddaw",
+      "prediction": 0.06362251192331314,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90m0074y2jgrem7x",
+      "prediction": 0.9999494552612305,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv8909c074y0i1x320e",
+      "prediction": 0.0008006285643205047,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvm90xs074yc035axof",
+      "prediction": 5.768943083239719e-05,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxuu8zqc074y0rlqdc2l",
+      "prediction": 0.9928718209266663,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvc90go074y4erzha8j",
+      "prediction": 0.8739588260650635,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvs9158074y7xp278o9",
+      "prediction": 1.0,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwk92cg074yhhy92j5p",
+      "prediction": 0.19086791574954987,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvs9164074y6rvy04zw",
+      "prediction": 0.03596432879567146,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv69064074ydvrycsa1",
+      "prediction": 0.10612770169973373,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv7906s074yfbj0gei6",
+      "prediction": 0.9380964636802673,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwr92mo074ybdsj41sw",
+      "prediction": 0.999998927116394,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92co074yen9odmy7",
+      "prediction": 0.19911475479602814,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvk90v0074yb8zoee7n",
+      "prediction": 0.9999256134033203,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuz8zvs074yejtv71m1",
+      "prediction": 1.4900164387654513e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990ac074yd27687my",
+      "prediction": 1.0923675290541723e-05,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwb91yk074yf7m97ste",
+      "prediction": 0.957811713218689,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891s8074yhr7x1wns",
+      "prediction": 0.3429340124130249,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91wk074y1giv8p4f",
+      "prediction": 0.9742687940597534,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvs915w074y3ywaa0md",
+      "prediction": 0.2545296847820282,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv28zzc074y2d1j73oz",
+      "prediction": 0.880339503288269,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv5903s074y5iad8ltl",
+      "prediction": 0.06326039880514145,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwh9270074ybgl533ae",
+      "prediction": 0.9950404763221741,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwa91wo074yfxzk9k3o",
+      "prediction": 0.9994112253189087,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuq8zn4074y6ud0erxj",
+      "prediction": 0.9999799728393555,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwi928s074yaghf65ee",
+      "prediction": 0.0007912027649581432,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv6906c074y5ii1dxsi",
+      "prediction": 0.990679919719696,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvd90io074y2o7785y9",
+      "prediction": 0.01627475954592228,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991uo074y50gz2uck",
+      "prediction": 0.998690664768219,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv39008074y8lkba3te",
+      "prediction": 0.03614385053515434,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991v0074yf71jbdeo",
+      "prediction": 0.9873982667922974,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvt916c074ygv7n4qe7",
+      "prediction": 0.9492819309234619,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuu8zr0074y1vdvg8p8",
+      "prediction": 0.0147713553160429,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv5903g074y4wlm681g",
+      "prediction": 0.993473470211029,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvo90zw074y7gk7byiz",
+      "prediction": 0.9909791946411133,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuw8zt0074yfc365i0w",
+      "prediction": 0.9496804475784302,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91ak074y9hww4hvc",
+      "prediction": 0.9990792274475098,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90jo074yhidc1v7m",
+      "prediction": 0.33573564887046814,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxux8zuk074y2ecr98hy",
+      "prediction": 1.2678116036113352e-05,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwl92dw074yd5cy63kw",
+      "prediction": 0.7834479808807373,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw291j8074yd9x81f6z",
+      "prediction": 0.17610616981983185,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvq912s074yewom2e6b",
+      "prediction": 0.9999967813491821,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvs915c074y85la04so",
+      "prediction": 0.037134237587451935,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvu918s074yflg52x8r",
+      "prediction": 2.127497282344848e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwh926s074y8cz1g64s",
+      "prediction": 0.9675561189651489,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvg90ng074yfynhdfbd",
+      "prediction": 0.9857614040374756,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91aw074y9qace5q5",
+      "prediction": 8.715634862710431e-07,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvc90fs074ydx6x5gf2",
+      "prediction": 0.968962550163269,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90lo074y5ckl4aji",
+      "prediction": 0.00011588563211262226,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuz8zwc074yhd8ohemi",
+      "prediction": 0.9957116842269897,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90n4074y168dg66y",
+      "prediction": 1.0,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxus8zog074ygep338cc",
+      "prediction": 0.999950647354126,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90ns074y938udwjj",
+      "prediction": 0.9896286725997925,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwg9250074yem455skg",
+      "prediction": 0.9993253946304321,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90q0074ygar19fkz",
+      "prediction": 0.9999997615814209,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw591no074y7jng91j2",
+      "prediction": 0.8803431987762451,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuv8zs0074yc3da22oc",
+      "prediction": 0.9721706509590149,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991us074yf73d80ry",
+      "prediction": 0.4384978711605072,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw391kw074ycl08cjf2",
+      "prediction": 0.825173020362854,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuy8zvc074ybq8dggsu",
+      "prediction": 0.9998984336853027,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvn90z4074yc80tadv6",
+      "prediction": 1.4368143119725119e-08,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvq913g074y9aq0aw5d",
+      "prediction": 0.02449149452149868,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92ck074y3qyc954b",
+      "prediction": 0.9747326970100403,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw891rg074y4ygr1z7n",
+      "prediction": 0.7642306089401245,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvd90ic074yecw26xzw",
+      "prediction": 0.001136326463893056,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvu918k074y5lxcd4yu",
+      "prediction": 0.005415931344032288,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvp9124074y31136vls",
+      "prediction": 3.699389017342014e-09,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvg90og074y4cenh7ho",
+      "prediction": 0.028779199346899986,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwb91y4074ycw53h6mq",
+      "prediction": 0.999996542930603,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvp912k074y1exo79ka",
+      "prediction": 0.005138448439538479,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvx91c8074yf6iac1vt",
+      "prediction": 0.9976104497909546,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwb91xg074y0c2bejt7",
+      "prediction": 0.9957455992698669,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf924w074yg7327g9c",
+      "prediction": 0.005526627879589796,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd921s074ye3a7964h",
+      "prediction": 0.3109630048274994,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxuw8zss074ye8pcfvyc",
+      "prediction": 0.9986339211463928,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90p4074yevsudbj8",
+      "prediction": 0.9998168349266052,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491mc074y5oc59auw",
+      "prediction": 0.006028948351740837,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91ac074y2gcz2woe",
+      "prediction": 0.051369912922382355,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvi90rw074ygc5eg92f",
+      "prediction": 0.2744816541671753,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvy91dk074y51fvg9ld",
+      "prediction": 2.605484006323877e-08,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxwp92jw074y97i96bmu",
+      "prediction": 0.9999421834945679,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv49030074y4dir095j",
+      "prediction": 0.0019249703036621213,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv89094074yhbcqdpu6",
+      "prediction": 0.5864143371582031,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvp911s074y728ofk8t",
+      "prediction": 0.7778469324111938,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf923o074ybccw0pgg",
+      "prediction": 0.9999802112579346,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxux8zu8074y7bl93ebh",
+      "prediction": 2.9003507506786264e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv59048074yc5km1cks",
+      "prediction": 0.0008636823040433228,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvm90y0074y69ut67mi",
+      "prediction": 4.421060293680057e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvm90xg074y3wzw25nc",
+      "prediction": 0.0010140843223780394,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990b0074y53ha350u",
+      "prediction": 0.10961080342531204,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv5904k074y5k91dwfq",
+      "prediction": 0.0022440890315920115,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuw8zsk074ygc1iadn2",
+      "prediction": 0.9710317254066467,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvd90hk074y8yr9hoqr",
+      "prediction": 0.9995297193527222,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv59038074y0hol2h45",
+      "prediction": 0.01291042473167181,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791r0074y28e02h01",
+      "prediction": 0.25890108942985535,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91bg074y5bidc0zv",
+      "prediction": 0.4980961084365845,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv79070074y9aan49ou",
+      "prediction": 0.9485301375389099,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw591ng074yhymd3d2f",
+      "prediction": 0.09241084009408951,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvi90s0074y62ibhh04",
+      "prediction": 0.9865273833274841,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwp92j4074y73c2awy8",
+      "prediction": 0.45108240842819214,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd920o074yb2r9d0kk",
+      "prediction": 0.0011398482602089643,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91vc074y96vrhd4x",
+      "prediction": 0.999946117401123,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791rc074y036h8u8s",
+      "prediction": 0.9999939203262329,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwg925o074y3qmhh504",
+      "prediction": 0.9800902605056763,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuq8zmo074y24qmhbgp",
+      "prediction": 0.978760838508606,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwj92a4074yfj2deq0u",
+      "prediction": 0.999504804611206,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92fk074yh5vrcfyh",
+      "prediction": 0.3797338902950287,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvc90fk074ya7hv0ab1",
+      "prediction": 0.9453856348991394,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv7907c074y8xvo3g7g",
+      "prediction": 0.9988802075386047,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv28zzg074y1d2xeu17",
+      "prediction": 0.2979488968849182,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwd921k074y77y33hny",
+      "prediction": 0.9963452219963074,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxus8zp4074yhyue52t1",
+      "prediction": 0.9999998807907104,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwn92h0074y97la3qfv",
+      "prediction": 0.9991137385368347,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91wc074yfxqkb2jo",
+      "prediction": 0.9442512392997742,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwh926c074y5bj70ura",
+      "prediction": 0.9923257827758789,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90no074yhcyb0sj6",
+      "prediction": 0.5741771459579468,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvy91cs074y01n2d3kw",
+      "prediction": 0.0025654740165919065,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw691p0074yhi2q8l6h",
+      "prediction": 0.985833466053009,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv69068074y6rapat1d",
+      "prediction": 0.31470128893852234,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxut8zq4074y468oehmf",
+      "prediction": 3.7291825719876215e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891ss074y7oetfpnl",
+      "prediction": 0.0034327118191868067,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvm90xc074y5yp9azlb",
+      "prediction": 0.8786655068397522,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw891s0074y52u3c3i9",
+      "prediction": 0.659606397151947,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvl90wc074y52039r1y",
+      "prediction": 0.09448862075805664,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90tw074y4ap48h2a",
+      "prediction": 0.9835931062698364,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwg925k074yaxxy071h",
+      "prediction": 0.9763423204421997,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwo92i4074y4wsh5ive",
+      "prediction": 0.025017499923706055,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv7907s074yg2h1a1qj",
+      "prediction": 5.2820647397311404e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxur8zo0074yds4ebqyd",
+      "prediction": 0.48677074909210205,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvy91e4074y9qrufwsq",
+      "prediction": 0.0012399005936458707,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92mc074ybql22sqk",
+      "prediction": 0.01254079770296812,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw391l4074y75b343au",
+      "prediction": 0.9882689714431763,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwi9284074y3t0u0fn1",
+      "prediction": 0.9997939467430115,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90vw074yfilg4f1o",
+      "prediction": 0.004172094166278839,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxwo92iw074y7wqt4ybk",
+      "prediction": 6.906635826453567e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvt9174074yegm89l1z",
+      "prediction": 0.0030621809419244528,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvx91bo074y14c8a7im",
+      "prediction": 0.006224681157618761,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxvg90o0074y9qz4131e",
+      "prediction": 0.013803119771182537,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvy91dw074y8z78cuta",
+      "prediction": 0.00021474887034855783,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90po074ydty2c5wc",
+      "prediction": 0.9993069171905518,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90e0074y9eoq4729",
+      "prediction": 0.9999980926513672,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv3900w074yhr0x3ja6",
+      "prediction": 2.597278295213279e-11,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwn92gs074yg75oawpw",
+      "prediction": 0.9998562335968018,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv39000074yfvklf0as",
+      "prediction": 0.9786575436592102,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvr914k074yadv9fnj6",
+      "prediction": 3.0325136322062463e-06,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwc920c074y5irb76if",
+      "prediction": 2.359962854825426e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwp92k8074ybz5l790g",
+      "prediction": 0.9996670484542847,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc91zo074yhmm3ah91",
+      "prediction": 0.0030858227983117104,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvt917c074yci4lbmp9",
+      "prediction": 0.005044684279710054,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwr92n8074y45lt2m50",
+      "prediction": 0.999998927116394,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw691oo074y2z6q9ojx",
+      "prediction": 0.9995679259300232,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvq913s074yddz272dj",
+      "prediction": 4.066803285240894e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv6904w074ydqun38bi",
+      "prediction": 0.41582924127578735,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuy8zus074ycfgp22fs",
+      "prediction": 1.5837608557944804e-08,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwk92c4074yd1ef5mc3",
+      "prediction": 0.6217972040176392,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwg9254074y7roo6u1p",
+      "prediction": 0.003393994877114892,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxva90bw074y8zg6gj3i",
+      "prediction": 0.00873771496117115,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw791q8074y8jh00bvs",
+      "prediction": 0.0032838520128279924,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwo92i0074yhfsa01hg",
+      "prediction": 0.9997580647468567,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxvg90nk074y6qnzas41",
+      "prediction": 0.37123221158981323,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc91zg074yh18u1rkb",
+      "prediction": 0.0033024458680301905,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwe9234074y95lvhrow",
+      "prediction": 0.7883291840553284,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv5904g074yf9so0s07",
+      "prediction": 0.0697384923696518,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf9244074y11t01gjs",
+      "prediction": 0.34008049964904785,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv6905g074yc1yh9xje",
+      "prediction": 0.9998800754547119,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuu8zr8074y7ha63pmn",
+      "prediction": 0.999991774559021,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90vs074yd420gt2w",
+      "prediction": 0.930324137210846,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvv9190074ybvpybnwf",
+      "prediction": 0.7423408031463623,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvm90y8074y3x6wco5a",
+      "prediction": 0.9972801208496094,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc9208074yhpwkh7w1",
+      "prediction": 0.9642179012298584,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuw8ztc074yhs3egadt",
+      "prediction": 0.7140357494354248,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvl90wo074yffkc7fup",
+      "prediction": 0.6217743754386902,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxux8zuo074y2r20bzu8",
+      "prediction": 0.5311090350151062,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvn90z0074y8axh9wu4",
+      "prediction": 0.9999997615814209,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90ok074y8ls5aciq",
+      "prediction": 0.39434701204299927,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90k4074yeawvbbt7",
+      "prediction": 0.9998528957366943,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuv8zrg074ydj8qeahm",
+      "prediction": 6.460902659455314e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwn92hc074y0g1i2dzr",
+      "prediction": 0.9832859635353088,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvu9180074y2mv36kdz",
+      "prediction": 0.9925685524940491,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92lk074yepfmerxu",
+      "prediction": 0.918174147605896,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvi90rc074y0s2m56os",
+      "prediction": 0.8106881976127625,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvn90zg074y4d0admpx",
+      "prediction": 0.9999462366104126,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv3900g074yfvvybpwn",
+      "prediction": 0.9999996423721313,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90m8074y3tq186qw",
+      "prediction": 0.9002291560173035,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv49024074ybnq9fuft",
+      "prediction": 0.0658046305179596,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvt916k074y37lb4qqx",
+      "prediction": 0.9795209765434265,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891sk074y9c0r2tec",
+      "prediction": 1.0,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90tk074y2njo1q8n",
+      "prediction": 0.9997426867485046,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92lg074yhzx807og",
+      "prediction": 0.0038221608847379684,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwc9204074y3neidpjj",
+      "prediction": 0.9983980059623718,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuq8zmg074y7owh9m4b",
+      "prediction": 0.11552471667528152,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90sc074yclj17zdz",
+      "prediction": 0.0023895578924566507,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf9248074y2gg6hnvg",
+      "prediction": 0.9982751607894897,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw091fw074ydks3eoa8",
+      "prediction": 0.3505598306655884,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwk92as074y918n8yx5",
+      "prediction": 0.15375861525535583,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvl90w8074y800katqf",
+      "prediction": 0.15237408876419067,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvs915o074yaixt43zj",
+      "prediction": 5.768574555986561e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891so074yefo5b9gx",
+      "prediction": 0.9998594522476196,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxva90c4074y1p0q5ffu",
+      "prediction": 0.017093222588300705,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw691p4074yf6ole1e6",
+      "prediction": 0.9999222755432129,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90pk074ybg7y8ohv",
+      "prediction": 0.440595418214798,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxve90l0074y2s336tdz",
+      "prediction": 0.9999996423721313,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvc90fo074yhqtidcpt",
+      "prediction": 0.00298924557864666,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvd90ik074ygxuw4k0e",
+      "prediction": 0.28952476382255554,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwr92nc074y05xrb03z",
+      "prediction": 3.776278390432708e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf923s074yfpch1k5u",
+      "prediction": 0.14663244783878326,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90ps074y43z6g5pm",
+      "prediction": 0.9999961853027344,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91w8074yh83ghkvk",
+      "prediction": 0.8790097236633301,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvo910c074y0zvf93s0",
+      "prediction": 0.15997080504894257,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc91zs074ydrgf1t54",
+      "prediction": 0.00011647644714685157,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwr92mk074y2fr1bfrc",
+      "prediction": 0.999984622001648,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvn90zs074yfulm3h7o",
+      "prediction": 0.8146561980247498,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw191ho074y2dn98yu8",
+      "prediction": 0.9999997615814209,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv08zxg074y2w4lbms9",
+      "prediction": 0.9361644387245178,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwe922s074ye8h6d2e8",
+      "prediction": 0.0014585908502340317,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuv8zs4074y63kcdkqh",
+      "prediction": 1.8042501324089244e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwk92bg074ybmj2ex6d",
+      "prediction": 0.9638753533363342,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxva90cg074yg8qw2fsa",
+      "prediction": 0.999524712562561,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92e0074ydrve14u4",
+      "prediction": 0.05179286748170853,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw291jg074ydbdrhdtv",
+      "prediction": 9.819130355026573e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92l8074y75pl9j4s",
+      "prediction": 0.9998607635498047,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwr92ms074y4pij3jyv",
+      "prediction": 0.9998970031738281,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvx91cg074ydroca3tw",
+      "prediction": 0.9999922513961792,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuv8zsc074yf2j43it4",
+      "prediction": 0.9999829530715942,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvi90s4074y4hwf4o6t",
+      "prediction": 0.2561281621456146,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvs915g074y988w0xsx",
+      "prediction": 4.007054030807922e-06,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwo92hs074y8p8h4lm3",
+      "prediction": 0.02661619335412979,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv4902k074ye3k8aqnb",
+      "prediction": 0.9188343286514282,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90k8074yhcd65p2a",
+      "prediction": 0.03088485822081566,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwr92nk074y63kef14q",
+      "prediction": 0.99665367603302,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv990a0074y0w7a0rzf",
+      "prediction": 0.7133368849754333,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvi90qk074y0jc813fp",
+      "prediction": 0.8400763273239136,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvr914s074y8hoqbrny",
+      "prediction": 0.21234965324401855,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxuz8zwk074y5wsmesj0",
+      "prediction": 0.003208304988220334,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwg9260074yex77d8z9",
+      "prediction": 0.9998819828033447,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvu918w074ye4j37k3k",
+      "prediction": 0.08240798115730286,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwo92ig074yh1p1gtta",
+      "prediction": 0.9999481439590454,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxva90c0074y2utk2y1y",
+      "prediction": 0.005393896717578173,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw391l8074ybfca9fug",
+      "prediction": 0.9999867677688599,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90nw074yhkft6sf7",
+      "prediction": 0.415931761264801,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvc90h4074y2ljl5p2a",
+      "prediction": 0.15530827641487122,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvp911o074y4vuzbfbr",
+      "prediction": 0.9994179010391235,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv8909o074y7uds7raq",
+      "prediction": 7.441127536367276e-07,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxv8909g074ygqvjem5q",
+      "prediction": 0.9994069337844849,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwk92bw074ydvgv9bnm",
+      "prediction": 0.791888952255249,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90jw074y05yad028",
+      "prediction": 0.6215683221817017,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd921w074yaetabffd",
+      "prediction": 0.9999986886978149,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv08zx8074y29453owk",
+      "prediction": 0.9777175188064575,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90v8074y2mal1cph",
+      "prediction": 0.00021888161427341402,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv08zx4074yhidlh8k8",
+      "prediction": 0.00016126048285514116,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvq9130074yfsf2bl7p",
+      "prediction": 0.9999663829803467,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw091g0074y3qhmfi9e",
+      "prediction": 9.790800686459988e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90ko074ydzxk5n0h",
+      "prediction": 0.8564516305923462,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91vw074ygv4c6gnb",
+      "prediction": 0.4451543092727661,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvy91dc074y3ycq9ete",
+      "prediction": 0.9998683929443359,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwb91xw074y2qpxbs44",
+      "prediction": 0.023945273831486702,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw691p8074y9ot05ae9",
+      "prediction": 0.03515784069895744,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuz8zw4074yheicg35d",
+      "prediction": 0.5142151117324829,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91b0074y1pynhgj9",
+      "prediction": 0.5004807710647583,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvj90so074yb5zic15r",
+      "prediction": 1.0899025681965213e-07,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvc90g4074yhcv0de09",
+      "prediction": 0.8249706625938416,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd921c074yb9fj5kk7",
+      "prediction": 0.598429262638092,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwo92is074y1fchd71y",
+      "prediction": 0.9726909399032593,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuy8zvo074ydu6kfsty",
+      "prediction": 0.03048412874341011,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw291j4074yff7m9fc3",
+      "prediction": 0.35019806027412415,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxus8zo4074y68hg66sq",
+      "prediction": 9.06564400793286e-06,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvi90s8074y867p5cbg",
+      "prediction": 0.9332226514816284,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvc90g8074yft724moc",
+      "prediction": 0.4312148094177246,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwf924s074y379c48am",
+      "prediction": 0.5086043477058411,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw691pc074y9phlbw41",
+      "prediction": 5.362015826904099e-07,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvg90o8074y9jii7q81",
+      "prediction": 0.00023071364557836205,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90q4074y1gxmb64k",
+      "prediction": 1.056761900208869e-09,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvl90w4074ye7oia0wy",
+      "prediction": 0.10911056399345398,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuu8zrc074y2e22de0g",
+      "prediction": 0.9824426174163818,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491mw074ydtuf6e1n",
+      "prediction": 0.9999650716781616,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxur8zns074y1yimhhvd",
+      "prediction": 0.9976535439491272,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvp9128074y5n8u9mz5",
+      "prediction": 0.9999581575393677,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91v4074y3al70eaf",
+      "prediction": 0.9049443602561951,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxv28zzo074yd55s2okj",
+      "prediction": 4.2407700107105484e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91vk074y9orohnyw",
+      "prediction": 0.9910586476325989,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwn92gg074y1p6u1g6u",
+      "prediction": 9.38556477194652e-05,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvl90wg074y8dnf1glw",
+      "prediction": 0.21308119595050812,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv7906w074y679nfpeg",
+      "prediction": 0.9998937845230103,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90ms074y1bylasgv",
+      "prediction": 0.9999991655349731,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuu8zqw074y6owx4apm",
+      "prediction": 0.9851120114326477,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuq8zn0074y3dkr920e",
+      "prediction": 0.9683104753494263,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwp92jo074yezfl3lmh",
+      "prediction": 3.398147043753852e-07,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv69054074y90nk69f4",
+      "prediction": 0.9841828942298889,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuw8ztg074y3tg1govn",
+      "prediction": 0.2984042465686798,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv39014074yhxoihk8b",
+      "prediction": 0.9999009370803833,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxva90co074y41clguhf",
+      "prediction": 2.9138020636310102e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90fg074ydzpdbwmn",
+      "prediction": 0.998768150806427,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxva90dg074yareh1db9",
+      "prediction": 0.0016136618796736002,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw091go074y5i9lbxea",
+      "prediction": 0.9957215785980225,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv49028074y5zvrg8yo",
+      "prediction": 0.8051887154579163,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwo92ik074y2g4365ru",
+      "prediction": 0.9773269295692444,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvi90r4074yavx6d87z",
+      "prediction": 0.11283890902996063,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991ug074y75v1dt4w",
+      "prediction": 0.9959458708763123,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv08zxk074y44mo664c",
+      "prediction": 0.9954397082328796,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvy91dg074yhcjq5j78",
+      "prediction": 0.9848917722702026,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvv919k074yakrv2etn",
+      "prediction": 9.856566066446248e-06,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvj90sw074y65neasey",
+      "prediction": 0.9230374693870544,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw691ok074y4dqk6b7j",
+      "prediction": 0.9973610043525696,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvi90rk074y33d3eh97",
+      "prediction": 0.9998741149902344,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvn90yo074yatjl43ll",
+      "prediction": 0.9955430626869202,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv08zx0074ya8f13n87",
+      "prediction": 0.7322807312011719,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd9214074yeqs568a5",
+      "prediction": 0.9847687482833862,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw091h4074yduxfh7gu",
+      "prediction": 0.9833685755729675,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvd90j4074ybrht5v5a",
+      "prediction": 0.880720853805542,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwn92h8074y8ue57vf4",
+      "prediction": 0.9987181425094604,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwk92b4074y5ob759i3",
+      "prediction": 0.9495580196380615,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc920k074yfgibcove",
+      "prediction": 0.9999998807907104,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90u0074y1euvclot",
+      "prediction": 0.22981706261634827,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491m0074y3698f6pn",
+      "prediction": 0.9999988079071045,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvd90ig074yb6in8d04",
+      "prediction": 5.8890222476293275e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91a4074ye6pzeo7k",
+      "prediction": 0.9975048899650574,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxux8ztk074ydrosfmn4",
+      "prediction": 0.9992196559906006,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv3901c074yffz00p7z",
+      "prediction": 8.645280468044803e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90ks074y28d9gp8o",
+      "prediction": 9.614146983949468e-05,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxve90kw074y3tymbify",
+      "prediction": 0.0006231634761206806,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvn90z8074y0314944r",
+      "prediction": 0.0008019937667995691,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvz91ec074y2utnddy4",
+      "prediction": 0.9691804051399231,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv79088074ycq5xhswt",
+      "prediction": 0.9970715045928955,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv18zy4074y8e4ec357",
+      "prediction": 3.789120455621742e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv28zz8074y464gfdth",
+      "prediction": 0.9978862404823303,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvd90iw074yhzgr3dfl",
+      "prediction": 0.9378043413162231,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvo9118074ygmpxhuu0",
+      "prediction": 2.959619678222225e-06,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxw191i0074ygbzn4eny",
+      "prediction": 0.0011547304457053542,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvf90lg074y3t1ccksv",
+      "prediction": 0.5606516599655151,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvi90qw074y9f6e88ql",
+      "prediction": 0.5301339030265808,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvl90x8074y29undetw",
+      "prediction": 0.0009071434033103287,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvw91as074y5r7w5f3d",
+      "prediction": 0.00019167277787346393,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvi90r8074yhji7hvc5",
+      "prediction": 0.9793776869773865,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvz91fk074y62qz61nh",
+      "prediction": 0.45481353998184204,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuz8zw8074y1egf4l72",
+      "prediction": 1.0804415495613284e-07,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwq92m8074ycv561xge",
+      "prediction": 0.9905143976211548,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90mc074yetbu4dvf",
+      "prediction": 0.9949156045913696,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv6905k074ydl6b0v75",
+      "prediction": 0.9898640513420105,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvk90uw074y3ot81bzn",
+      "prediction": 0.9999986886978149,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvl90ww074y1p1410bj",
+      "prediction": 1.499713409014447e-10,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991u0074yb6546her",
+      "prediction": 0.9999879598617554,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuu8zqg074y82szgznp",
+      "prediction": 0.22645317018032074,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvz91f4074yagmwfz1c",
+      "prediction": 0.5242772102355957,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxux8ztw074y467g3ap6",
+      "prediction": 0.0005851134774275124,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvs9154074y56ri0885",
+      "prediction": 2.3174898444722203e-07,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwa91vg074yd6s88loy",
+      "prediction": 0.9976521134376526,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990bo074y3b8wb3wt",
+      "prediction": 0.6267234683036804,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90ss074y44n0f097",
+      "prediction": 0.0008082295535132289,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwf924k074y775tdmxw",
+      "prediction": 0.9964644908905029,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf9240074ygahn9npc",
+      "prediction": 0.9814544320106506,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv39004074ya5mi9dpw",
+      "prediction": 0.9754972457885742,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv4901k074yfo5x99qy",
+      "prediction": 0.8551110625267029,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91w4074y6ii6fm6u",
+      "prediction": 0.9101350903511047,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90e4074y3ro53u7x",
+      "prediction": 0.9999953508377075,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92ks074y4nj7gnfr",
+      "prediction": 0.0011070632608607411,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwa91ww074y4xngdpbs",
+      "prediction": 0.9280878305435181,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuy8zv8074ya010fwou",
+      "prediction": 1.0,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw591nw074y8is785xq",
+      "prediction": 0.9998264908790588,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwp92kk074ygwqnhq4u",
+      "prediction": 0.9999992847442627,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw591n4074ybe7f8woy",
+      "prediction": 0.9999698400497437,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw591nk074ya5dcfrhw",
+      "prediction": 4.46953634991587e-07,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvg90n0074y5n8wdtdo",
+      "prediction": 0.9995040893554688,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90es074yeitt0sfx",
+      "prediction": 0.9998881816864014,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90f0074y9hbvalid",
+      "prediction": 1.002478915851368e-11,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw191ik074y92y57d5h",
+      "prediction": 0.0803891122341156,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv5904o074yh0my1eow",
+      "prediction": 5.671656253980473e-06,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwb91xc074y9olk7rt1",
+      "prediction": 0.9754350781440735,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwe922k074y692f95ip",
+      "prediction": 0.9828923940658569,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvf90ls074y982vbdvi",
+      "prediction": 1.7053904954877908e-08,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxut8zpc074y4azq5clw",
+      "prediction": 0.0007226872257888317,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvh90os074y59af22zs",
+      "prediction": 0.9975278973579407,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90uk074y088zgy2s",
+      "prediction": 0.8805000185966492,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv6905w074y2k5pbv73",
+      "prediction": 0.9999998807907104,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv3900o074y4a2067yv",
+      "prediction": 0.5868310332298279,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791r4074y0e4067az",
+      "prediction": 0.12590304017066956,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvp9120074y92tbhasg",
+      "prediction": 0.9999996423721313,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxut8zps074y9wwocn7t",
+      "prediction": 0.07288475334644318,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw291js074yc8207qlz",
+      "prediction": 0.9999401569366455,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvx91ck074y9lluhup5",
+      "prediction": 0.880814254283905,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw391l0074yhcswfun8",
+      "prediction": 0.6944094896316528,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwg925g074y2hyfgbel",
+      "prediction": 0.9999997615814209,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwe922w074y13z68o7m",
+      "prediction": 0.9996310472488403,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv4901g074y1b0i72e3",
+      "prediction": 0.003350428305566311,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw091gs074y351ibv1u",
+      "prediction": 0.9999628067016602,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuw8zsg074y4y8wdvn0",
+      "prediction": 0.9901472926139832,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvi90rg074y4m986v58",
+      "prediction": 0.9999974966049194,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90p8074ye3avanmn",
+      "prediction": 0.9999947547912598,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491lw074y2l3u6d31",
+      "prediction": 0.9991401433944702,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvd90ho074y9u7seky9",
+      "prediction": 0.47858089208602905,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90sg074y9nnwdtkm",
+      "prediction": 0.9708387851715088,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw291j0074yeg5mevh5",
+      "prediction": 0.9648792147636414,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw091h8074ycl7pc8cp",
+      "prediction": 0.056599561125040054,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwh9268074y5teb0hym",
+      "prediction": 0.3498951196670532,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuz8zwo074y69px8gvj",
+      "prediction": 0.0687362477183342,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxwh9264074y4rf46wx5",
+      "prediction": 0.9609664678573608,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991uc074ygi4tbu54",
+      "prediction": 0.29065361618995667,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92dk074y3b0u69na",
+      "prediction": 4.432582745295122e-09,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvc90fw074yettxbhe6",
+      "prediction": 0.9235206842422485,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwi928k074y6xxl3qf0",
+      "prediction": 0.9999872446060181,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90t8074y9y4z6tp3",
+      "prediction": 8.102633231032996e-09,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91vs074y6zt6hrp8",
+      "prediction": 0.9495363831520081,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvt916o074yf7wlgcz9",
+      "prediction": 0.9994680285453796,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvv919w074yfggu7prs",
+      "prediction": 0.5129676461219788,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvd90hw074y78wpb0yn",
+      "prediction": 0.4707701504230499,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvo9114074y2bph73w9",
+      "prediction": 0.014954600483179092,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90kg074y3rm8dqbf",
+      "prediction": 7.298861248727917e-08,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwq92m0074ye2ii2wbs",
+      "prediction": 0.40022948384284973,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv28zzk074yf0c2fic2",
+      "prediction": 0.45643147826194763,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxus8zoo074yad840gix",
+      "prediction": 0.9999653100967407,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491m4074y1fz24rdk",
+      "prediction": 0.0011677865404635668,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90m4074y4weshkpp",
+      "prediction": 0.9943307638168335,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw091gg074yg0wa1k1w",
+      "prediction": 0.691143810749054,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90ec074y8tni6st3",
+      "prediction": 0.17555288970470428,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92eg074y30y39wtz",
+      "prediction": 0.0012839363189414144,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvp911k074y4c951b7m",
+      "prediction": 0.999980092048645,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwj92a0074ygt8udnql",
+      "prediction": 0.9999998807907104,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxus8zp0074y12o5brpj",
+      "prediction": 0.7106426358222961,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvc90h0074y7tyt02wf",
+      "prediction": 0.9998703002929688,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvz91eg074yec9uflmj",
+      "prediction": 4.120125140616437e-06,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvj90t4074yfobabyxj",
+      "prediction": 3.1632916375201603e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92f8074yf9rkgni7",
+      "prediction": 0.45816805958747864,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92e4074yc1igcvmw",
+      "prediction": 0.001619700575247407,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxva90bs074ya2pahyom",
+      "prediction": 0.9999997615814209,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvn90zc074yblda8tyx",
+      "prediction": 0.10550279170274734,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuu8zqs074y324g4z9f",
+      "prediction": 0.9972320199012756,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv79084074yd3sagock",
+      "prediction": 0.99998939037323,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw391kc074y5qjefpdz",
+      "prediction": 0.9908459782600403,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwj929o074y53xuf62r",
+      "prediction": 0.9999810457229614,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwr92n0074ybqml14kc",
+      "prediction": 1.0,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvo910g074y9da4amr7",
+      "prediction": 4.099775452459653e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90t0074yfh6rgt5e",
+      "prediction": 0.6623889803886414,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuv8zrs074y9k0ebd3e",
+      "prediction": 1.1752382533813943e-06,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvk90uo074ygz695cl4",
+      "prediction": 1.66293318670796e-06,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvj90tg074ydoqz4l1r",
+      "prediction": 0.0748048648238182,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvi90ro074y5mg540by",
+      "prediction": 0.05106386914849281,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv8908w074y12lcdpnx",
+      "prediction": 0.24719689786434174,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwo92io074ydu7x9umt",
+      "prediction": 0.9965444207191467,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvq913o074y7lnz0fhw",
+      "prediction": 0.9985575079917908,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuv8zrw074y9iwrgb8n",
+      "prediction": 0.8634321093559265,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvd90j0074y0zo13d3u",
+      "prediction": 0.9999914169311523,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuw8zt4074y0m7g3tl5",
+      "prediction": 0.2264150232076645,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwm92fo074y4fe212h5",
+      "prediction": 0.999930739402771,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv4902c074y4kum48zx",
+      "prediction": 0.013411100953817368,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwn92g0074y65w688ar",
+      "prediction": 0.9976845979690552,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvz91f8074y4zyob5tc",
+      "prediction": 0.8928689360618591,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc91z0074y8eyd6x79",
+      "prediction": 4.184312007993185e-09,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90oc074y0qcoeo02",
+      "prediction": 9.369255735691695e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791qw074yaptv2bgb",
+      "prediction": 0.9999428987503052,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv7907o074y51ergcqi",
+      "prediction": 1.890286256411855e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd921g074yb1cu1ga4",
+      "prediction": 0.8811179995536804,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90uc074y5tpm0apw",
+      "prediction": 0.9964648485183716,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891rk074yh9zf0mvw",
+      "prediction": 1.1330635061312933e-05,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwb91y8074y19xrgfm8",
+      "prediction": 0.6421520113945007,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwj9294074ybstheh4d",
+      "prediction": 0.7961350083351135,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwb91xo074yeiz50p0a",
+      "prediction": 0.04875224828720093,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv7907g074yh40pcwlh",
+      "prediction": 0.9999991655349731,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990b4074y4ot3gmi8",
+      "prediction": 0.019223907962441444,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvr914o074yfcup58zp",
+      "prediction": 0.1425449103116989,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxun8zko074y606k6otj",
+      "prediction": 0.9876722693443298,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw191hk074ygyj69433",
+      "prediction": 0.8117404580116272,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv4901w074y2k8w9dfo",
+      "prediction": 1.2758192724504624e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv28zzw074y62u9gdv9",
+      "prediction": 0.9891393780708313,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvw91a8074y20qp7kdd",
+      "prediction": 9.448505124964868e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvo9104074y30j4b8du",
+      "prediction": 0.0037057946901768446,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwp92jk074y3a577n4o",
+      "prediction": 0.9999954700469971,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92fs074ybmcyffs2",
+      "prediction": 0.0054726446978747845,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwn92gk074ydqv25xw1",
+      "prediction": 0.9999212026596069,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90vg074y0dhtdpmt",
+      "prediction": 0.1546885371208191,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv5903o074y08vf0cvg",
+      "prediction": 0.9963894486427307,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv4901s074y357gapnn",
+      "prediction": 0.9999927282333374,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv4902w074y35cc50x6",
+      "prediction": 0.9952499866485596,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwh927c074y1i493en7",
+      "prediction": 0.5875706076622009,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwo92hg074y3tsu8e5y",
+      "prediction": 0.9994505047798157,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvn90yk074ygz9h8gen",
+      "prediction": 0.9979494214057922,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwk92bs074y6u0c5qh3",
+      "prediction": 0.9379833936691284,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf924c074y4jpp16xb",
+      "prediction": 0.00015380712284240872,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvo9108074y0rbe3lm7",
+      "prediction": 0.30715522170066833,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvv919c074ybtev80vm",
+      "prediction": 0.6635771989822388,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuq8zn8074ygka8954g",
+      "prediction": 0.9241793751716614,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv39010074yfu2l1qnl",
+      "prediction": 0.5774727463722229,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791q0074y3p0bha7k",
+      "prediction": 0.0007375603308901191,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw191hg074y4ggvb5pn",
+      "prediction": 1.0,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990ag074ybfd581a5",
+      "prediction": 5.371310862756218e-07,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxv8909w074ydp6g3ktm",
+      "prediction": 0.9832383394241333,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991tw074y21rb2x20",
+      "prediction": 0.998636782169342,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxut8zq8074y0qrw786f",
+      "prediction": 2.673378673989646e-07,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvb90eo074y5ehc1t07",
+      "prediction": 0.1111961156129837,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvz91fc074y6cii2iyi",
+      "prediction": 3.078042482229648e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90ow074y1aqo1cvx",
+      "prediction": 0.992408275604248,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxur8zng074yhcpp2sx8",
+      "prediction": 0.10917948931455612,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwd9224074y96su5b7k",
+      "prediction": 5.013325426261872e-05,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxut8zpw074ydmnr8f6l",
+      "prediction": 9.649143976275809e-06,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvp912o074y4cwp1kiu",
+      "prediction": 2.032923930528341e-06,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxur8znk074y132ne8r9",
+      "prediction": 0.046757329255342484,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvu918c074ybus9cr35",
+      "prediction": 0.9492304921150208,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxva90cw074y3iofcmwm",
+      "prediction": 1.8067568774426945e-08,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvm90xk074ygct18hj3",
+      "prediction": 0.9880048632621765,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891t4074y298eb8am",
+      "prediction": 0.41409870982170105,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxva90c8074y5ztn19ek",
+      "prediction": 0.8576362729072571,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491ls074ybank4qyq",
+      "prediction": 0.9662572741508484,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv5903w074y7k9dawqu",
+      "prediction": 0.9982339143753052,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw691os074y26zb2lz4",
+      "prediction": 0.9886868000030518,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvs915s074ygw8u1akp",
+      "prediction": 0.06662941724061966,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvh90pc074yf2uta27t",
+      "prediction": 0.013218660838901997,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwj929s074yf2366tlk",
+      "prediction": 0.06973512470722198,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvd90hg074yfxq8a2ub",
+      "prediction": 0.9394256472587585,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw291k0074y5v8gewyr",
+      "prediction": 0.9697107672691345,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891t0074y1vtz6d0r",
+      "prediction": 0.8915837407112122,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw391kg074y4cwu8rlq",
+      "prediction": 0.9829759001731873,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92ek074y7xn5buol",
+      "prediction": 4.565471317619085e-05,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvd90i8074ygksw7hfy",
+      "prediction": 0.0005451246397569776,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990bc074ybba3aows",
+      "prediction": 0.9956526756286621,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwo92i8074ydu20eb9z",
+      "prediction": 0.999451220035553,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxva90d4074y014i8jpw",
+      "prediction": 0.4023134112358093,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvo910k074y2jz12pby",
+      "prediction": 0.9999935626983643,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvo910o074yfffq9uxz",
+      "prediction": 6.764752669141672e-08,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv8908g074y6744eg66",
+      "prediction": 0.9995595812797546,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990b8074yct0y4znb",
+      "prediction": 0.5110346078872681,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90mk074y966fegn0",
+      "prediction": 0.07568228244781494,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvm90xo074yb8ktd0oz",
+      "prediction": 0.0016015535220503807,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92d8074y19ufdpol",
+      "prediction": 0.9868610501289368,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw291jk074yhn5vdyz9",
+      "prediction": 0.9999912977218628,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvx91c0074y2byl9arg",
+      "prediction": 0.9558519124984741,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90f4074ye7j9g6n5",
+      "prediction": 0.5262178182601929,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90pg074yglg00ct4",
+      "prediction": 0.9935821294784546,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891s4074yde4pakyv",
+      "prediction": 0.33323439955711365,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxux8zto074y1qjm4o9w",
+      "prediction": 0.00011412912863306701,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791po074ydlw25q08",
+      "prediction": 0.9999955892562866,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuz8zwg074ygrl5b01q",
+      "prediction": 0.05049383267760277,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwd920s074y6tng5w6t",
+      "prediction": 0.9999998807907104,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw991to074y8x8xb4kw",
+      "prediction": 1.4669458892058174e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvo911c074y33a11sxf",
+      "prediction": 5.097811481391545e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491mk074yc7d40b4s",
+      "prediction": 0.9645079374313354,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw591ns074y2quy0ae0",
+      "prediction": 0.9998177886009216,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuv8zro074y5oeu8qe2",
+      "prediction": 0.9824371933937073,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvj90u4074ygr51ddwe",
+      "prediction": 0.12539704144001007,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvy91d8074y7blwflc8",
+      "prediction": 0.9950553178787231,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxux8zug074yaoiehas5",
+      "prediction": 0.9985973238945007,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw191hs074y067vfhfj",
+      "prediction": 0.15225182473659515,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwj9298074yfowacyka",
+      "prediction": 0.9999784231185913,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92cs074y19oz3vr0",
+      "prediction": 0.6490496397018433,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv18zys074yg4eu21lc",
+      "prediction": 0.2658807933330536,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90us074ygg10hyj3",
+      "prediction": 3.3968510138038255e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwk92bk074yebcsfrqg",
+      "prediction": 0.9995808005332947,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91wg074y4k5v6ixk",
+      "prediction": 0.5642796158790588,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvp912g074yhwh975dr",
+      "prediction": 0.9970695376396179,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw591o4074ycdn23de7",
+      "prediction": 1.1483655804056525e-08,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxw491ms074y68uj8fsz",
+      "prediction": 0.9936787486076355,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90dw074ya1gjbhtj",
+      "prediction": 0.16171495616436005,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvd90hs074y5lz2hy80",
+      "prediction": 0.0002667152730282396,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv79080074yek4w3fx9",
+      "prediction": 0.9996539354324341,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwh9278074y9188311t",
+      "prediction": 0.09319213777780533,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvc90gk074yetau6yvy",
+      "prediction": 0.7695964574813843,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90nc074ycgqb10ti",
+      "prediction": 0.03303904831409454,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvr9150074y1gfae1xg",
+      "prediction": 0.0042654769495129585,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvq9138074yc8b220oa",
+      "prediction": 1.0000999282056e-05,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw191i4074ydbkffqcc",
+      "prediction": 0.043023668229579926,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf923w074y8kxhd4yh",
+      "prediction": 0.9988418221473694,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvg90mw074y4dlng1pr",
+      "prediction": 0.9999598264694214,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv49020074y7aa578j1",
+      "prediction": 0.9997151494026184,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvv9198074yb7oga1xz",
+      "prediction": 0.983159601688385,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91w0074y05qr4rlb",
+      "prediction": 0.07120738178491592,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92d0074y2lll93pi",
+      "prediction": 1.0,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92fg074ycn3j2xjt",
+      "prediction": 0.013553119264543056,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxuw8zso074y5o6v9jyk",
+      "prediction": 0.15303587913513184,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90vo074y5w9gaxbf",
+      "prediction": 0.03346024081110954,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxut8zpg074yfkm05y0b",
+      "prediction": 0.005815687123686075,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvb90e8074ybc2q6saa",
+      "prediction": 3.3534855901962146e-05,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwf924g074yes2fbldm",
+      "prediction": 0.8693989515304565,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw391ko074y0hivegpd",
+      "prediction": 0.9998087286949158,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxv6905c074y8v087jm4",
+      "prediction": 0.056845810264348984,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv89098074yc3m3gu6v",
+      "prediction": 0.9999946355819702,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw691og074ydpj6f1tu",
+      "prediction": 0.9999953508377075,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891sg074y513kgz6d",
+      "prediction": 0.8569349050521851,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92es074ycvin79mc",
+      "prediction": 0.9699693322181702,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwg925w074yb85g1d7e",
+      "prediction": 0.5432338714599609,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvy91d0074y71ah0iox",
+      "prediction": 0.9828469753265381,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv08zxc074y6ywk59zo",
+      "prediction": 0.9965282082557678,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvr9148074ye0zncga5",
+      "prediction": 2.1979342363920296e-06,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxv08zws074ye2mb9yh8",
+      "prediction": 0.07014206796884537,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxur8znc074yg5ny5gy1",
+      "prediction": 6.638498598476872e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv28zz4074ydaumfq5d",
+      "prediction": 0.4499654173851013,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxv8908o074y457lcm6w",
+      "prediction": 0.9998922348022461,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv3900c074yg891fizz",
+      "prediction": 0.999692440032959,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvt9178074y2uycfnk9",
+      "prediction": 0.5716318488121033,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvy91e8074y8f9nhxl2",
+      "prediction": 3.09437450596306e-06,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvj90tc074y7awod6ya",
+      "prediction": 0.9967973828315735,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvr9140074yerqg51ox",
+      "prediction": 0.9999662637710571,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvz91eo074y90b2gp6k",
+      "prediction": 0.966620683670044,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw291iw074yfhw7dnw0",
+      "prediction": 0.9997108578681946,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92kw074yavfwf8x1",
+      "prediction": 0.0002467689337208867,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw291jw074yhz7mh2f0",
+      "prediction": 0.9998331069946289,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791qo074yc65j4s4d",
+      "prediction": 0.029013561084866524,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv990aw074ye4wn382y",
+      "prediction": 2.444651363475714e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwg9258074ybdlocui2",
+      "prediction": 0.9999574422836304,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwj929k074ybypb87uf",
+      "prediction": 0.9999539852142334,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxux8zts074ya6wce3e9",
+      "prediction": 0.013336430303752422,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwl92do074ya56yf6gm",
+      "prediction": 0.9999966621398926,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvx91c4074y2e107c5l",
+      "prediction": 0.9999374151229858,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvk90vk074yebavg90e",
+      "prediction": 0.9999785423278809,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwo92ic074yc2sh4kkq",
+      "prediction": 4.205715958960354e-05,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90l4074y85pi02pq",
+      "prediction": 0.4682725965976715,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw691o8074y39hb8dy5",
+      "prediction": 0.9993520379066467,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvu917s074y09ti352w",
+      "prediction": 8.784914484749606e-07,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvm90yc074yhss31nka",
+      "prediction": 0.8821172714233398,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwl92d4074ycv1e51d4",
+      "prediction": 0.9999959468841553,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv990bg074y533g3dou",
+      "prediction": 0.002477109432220459,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxus8zow074y5djsdlru",
+      "prediction": 0.4989627003669739,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuy8zvg074y7le6ebsr",
+      "prediction": 0.9666828513145447,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwc91zk074y4356balc",
+      "prediction": 0.6157415509223938,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv18zy8074yeuspa5jy",
+      "prediction": 0.020191021263599396,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvf90lk074y71pk02pe",
+      "prediction": 6.753207992815646e-10,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwk92b0074yb5rsfzze",
+      "prediction": 0.5142372846603394,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxwp92jg074yetpddo0y",
+      "prediction": 0.007493805140256882,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvh90pw074yftqi4j83",
+      "prediction": 0.7239800691604614,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd921o074ybgjm917p",
+      "prediction": 0.05869496241211891,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv990as074y6lv8euza",
+      "prediction": 0.9745931625366211,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxus8zok074ydwoc8kun",
+      "prediction": 0.9129091501235962,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvr914c074y6x1p6j5z",
+      "prediction": 0.001527237007394433,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxve90jc074y46vm6rwb",
+      "prediction": 0.3413347601890564,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw491lk074y8kki0ut2",
+      "prediction": 0.9939829707145691,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvc90gg074ybumufky2",
+      "prediction": 0.9972057938575745,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwp92k0074y7pgzff84",
+      "prediction": 0.0006109052337706089,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxv4902o074y62vw9pkp",
+      "prediction": 0.9167597889900208,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvl90x0074y4giy7jmk",
+      "prediction": 0.2653411030769348,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvb90ds074yb3by4m9y",
+      "prediction": 0.09898260980844498,
+      "num_regions": 4
+    },
+    {
+      "img_id": "clb0kvxwj92ag074yeh9u6r4w",
+      "prediction": 0.9928783774375916,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvo910s074y158ph2xe",
+      "prediction": 0.09978076815605164,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90eg074ybfrec9ua",
+      "prediction": 0.0008270905818790197,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvd90is074ycennh40o",
+      "prediction": 0.9653220176696777,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxwc9200074y5f6netux",
+      "prediction": 0.7593467831611633,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw491m8074ydujjbfv2",
+      "prediction": 0.9899225831031799,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvh90qg074y2eozat9d",
+      "prediction": 0.9928455948829651,
+      "num_regions": 3
+    },
+    {
+      "img_id": "clb0kvxvh90qc074ydmobc11a",
+      "prediction": 0.9987429976463318,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxuy8zuw074y92tngxrf",
+      "prediction": 0.0004222493735142052,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwm92fc074y4u05b0rf",
+      "prediction": 0.9676546454429626,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwd9218074y4li59fz7",
+      "prediction": 0.002640056423842907,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxv18zyo074yfnohc00m",
+      "prediction": 2.2260464902501553e-05,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxve90kk074yhyhi0w5o",
+      "prediction": 0.88026362657547,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw891rw074y77ah3n45",
+      "prediction": 0.002441879827529192,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxvi90rs074yekmx3ssh",
+      "prediction": 0.7214536666870117,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvu918g074yemzufukr",
+      "prediction": 0.9185497760772705,
+      "num_regions": 2
+    },
+    {
+      "img_id": "clb0kvxw191i8074ye8qh8r7y",
+      "prediction": 0.9999836683273315,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxw791pw074y41s0a5cb",
+      "prediction": 0.0034895525313913822,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv18zyc074yb18q8sj7",
+      "prediction": 2.02623664335988e-06,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwq92l4074y6gtocdux",
+      "prediction": 0.06480849534273148,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwa91vo074y664ha667",
+      "prediction": 0.9999780654907227,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwk92c0074ygtktalp3",
+      "prediction": 0.5413002967834473,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxv8908k074y6z8zc2oy",
+      "prediction": 0.0002874996862374246,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwp92js074y1qy8d1uk",
+      "prediction": 0.19093219935894012,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvb90f8074y90dw7q5g",
+      "prediction": 0.30180108547210693,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxwf923g074ygfyp8gw4",
+      "prediction": 0.8052612543106079,
+      "num_regions": 1
+    },
+    {
+      "img_id": "clb0kvxvs9168074y7npx7ful",
+      "prediction": 0.00021888995252083987,
+      "num_regions": 2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "img_id": "clb0kvxwp92jg074yetpddo0y",
+  "class": "oesophagitis",
+  "prediction": 0.007493805140256882,
+  "all_predictions": {
+    "oesophagitis": 0.007493805140256882,
+    "cecum": 6.296947538457455e-15,
+    "irrelaevnat": 1.1143712299599429e-06,
+    "z_line": 0.7624279856681824,
+    "polyp": 2.911294816332344e-11,
+    "ulcerative_colitis": 8.154412145522372e-10
+  },
+  "regions": [
+    {
+      "bbox": [
+        476,
+        0,
+        770,
+        752
+      ],
+      "area": 316840
+    },
+    {
+      "bbox": [
+        174,
+        178,
+        254,
+        256
+      ],
+      "area": 49250
+    },
+    {
+      "bbox": [
+        195,
+        698,
+        159,
+        319
+      ],
+      "area": 35752
+    }
+  ]
+}

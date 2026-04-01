@@ -4,7 +4,7 @@ import subprocess
 import shutil
 
 # Replace this with your actual Kaggle dataset ID (e.g., "username/dataset-name")
-KAGGLE_DATASET = "username/dataset-name"
+KAGGLE_DATASET = "itbaansawan/fyp-gi-vqa-mtl-data"
 
 def ensure_dependencies():
     try:

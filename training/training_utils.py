@@ -13,7 +13,7 @@ from torch.utils.data import Dataset
 import torch
 
 from transformers import AutoModelForCausalLM, AutoProcessor
-from peft import PeftModel, LoraConfig, get_peft_model  # ✅ added
+from peft import PeftModel, LoraConfig, get_peft_model
 import random
 import matplotlib.pyplot as plt
 import numpy as np
@@ -243,19 +243,48 @@ class KvasirVQADataset(Dataset):
 
             elif self.task == '<MedVQA_EXPLAIN>':
                 task_prompt = self.task_prefix_to_prompt[self.task]
-                question = sample['question']
+                roi_des = sample['answer']
 
-                if "no" in sample['n_answer'].lower():
-                    answer = sample['n_answer']
+                if roi_des != "":
+                    question = f"Give visual description of {roi_des}"
+                    prompt = task_prompt.format(input=question)
                 else:
-                    if tag == 'v2':
-                        answer = sample['vis_des']
+                    if sample['roi_type'] == "text":
+                        text_answers = [
+                            "Text visible on the image",
+                            "textual content observed",
+                            "text present on image",
+                            "text detected in image",
+                            "textual elements detected",
+                            "textual information observed",
+                            "Textual content present in image",
+                            "Text is present and identifiable",
+                            "text is present in the image",
+                            "text present on the imaging study"
+                        ]
+                        question = f"Give visual description of {random.choice(text_answers)}"
+                        prompt = task_prompt.format(input=question)
+                    elif sample['roi_type'] in ["box_artifect", "box_artifact"]:
+                        artifact_answers = [
+                            "evidence of box-like artifacts",
+                            "evidence of box-shaped artifacts observed",
+                            "presence of green and black box-shaped artifacts",
+                            "presence of green and black box artifacts",
+                            "evidence of box artifacts present",
+                            "evidence of green and black box artifacts",
+                            "evidence of dark-colored artifacts",
+                            "evidence of green and black artifacts",
+                            "evidence of box-like artifacts noted",
+                            "evidence of box artifacts in green and black colors"
+                        ]
+                        question = f"Give visual description of {random.choice(artifact_answers)}"
+                        prompt = task_prompt.format(input=question)
                     else:
-                        answer = sample['exp_ans']
-                
-                text = f"{question} Explain in Detail."
-                prompt = task_prompt.format(input=text)
-                return {'prompt': prompt, 'answer': answer, 'image': image}
+                        question = "Give visual description"
+                        prompt = task_prompt.format(input=question)
+
+                vis_des = sample['vis_des']
+                return {'prompt': prompt, 'answer': vis_des, 'image': image}
 
             elif self.task == '<REFERRING_EXPRESSION_SEGMENTATION>' and self.tag:
                 task_prompt = self.task_prefix_to_prompt[self.task]

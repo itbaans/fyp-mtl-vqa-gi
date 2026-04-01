@@ -12,3 +12,7 @@ __pycache__/
 # Images
 *.jpg
 *.png
+
+# Data Folder
+data/
+to_be_deleted/

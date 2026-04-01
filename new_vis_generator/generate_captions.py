@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 import new_vis_gen
 
-DATA_DIR = r'D:\FYP_MTL_GI_VQA\data'
+DATA_DIR = '../data'
 IMAGES_DIR = os.path.join(DATA_DIR, 'images')
 
 # Load environment variables from a local .env file if present
@@ -25,7 +25,7 @@ if os.path.exists(env_path):
 
 def load_valid_instrument_ids():
     valid_ids = set()
-    csv_path = r'D:\FYP_MTL_GI_VQA\data\combined\instruments_mask_phrases_v2.csv'
+    csv_path = '../data/combined/instruments_mask_phrases_v2.csv'
     if os.path.exists(csv_path):
         with open(csv_path, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
@@ -121,7 +121,7 @@ def main():
     
     random.shuffle(masks)
     
-    csv_out_path = r'D:\FYP_MTL_GI_VQA\generated_captions.csv'
+    csv_out_path = '../generated_captions.csv'
     temp_dir = tempfile.mkdtemp()
     
     # Track statistics

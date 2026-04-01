@@ -393,8 +393,8 @@ def run_evaluation(task, model, model_id, test):
     elif task == 'seg_pseudo':
         df1 = pd.read_csv("data/splitted/test/cecum_mask_phrases.csv")
         df2 = pd.read_csv("data/splitted/test/oesophatigis_mask_phrases.csv")
-        df3 = pd.read_csv("data\splitted\test\ulcerative_colitis_mask_phrases.csv")
-        df4 = pd.read_csv("data\splitted\test\z-line_mask_phrases.csv")
+        df3 = pd.read_csv("data/splitted/test/ulcerative_colitis_mask_phrases.csv")
+        df4 = pd.read_csv("data/splitted/test/z-line_mask_phrases.csv")
         df = pd.concat([df1, df2, df3, df4], ignore_index=True)
         test_data = list(zip(
             df["img_id"],
@@ -407,7 +407,7 @@ def run_evaluation(task, model, model_id, test):
             json.dump(score, f, indent=4)
 
     elif task == 'seg_polyp':
-        df = pd.read_csv("data\splitted\test\polyps_mask_phrases.csv")
+        df = pd.read_csv("data/splitted/test/polyps_mask_phrases.csv")
         test_data = list(zip(
             df["img_id"],
             df["mask_id"],
@@ -419,7 +419,7 @@ def run_evaluation(task, model, model_id, test):
             json.dump(score, f, indent=4)
 
     elif task == 'seg_instrument':
-        df = pd.read_csv("data\splitted\test\instruments_mask_phrases.csv")
+        df = pd.read_csv("data/splitted/test/instruments_mask_phrases.csv")
         test_data = list(zip(
             df["img_id"],
             df["mask_id"],

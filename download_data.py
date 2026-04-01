@@ -10,14 +10,12 @@ def ensure_dependencies():
     try:
         import kagglehub
     except ImportError:
-        print("Installing kagglehub API...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "kagglehub"])
+        print("not found kagglehub")
         
     try:
         import dotenv
     except ImportError:
-        print("Installing python-dotenv...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "python-dotenv"])
+        print("not found dotenv")
 
 def download_data():
     from dotenv import load_dotenv
@@ -27,7 +25,7 @@ def download_data():
     load_dotenv()
     
     # Check if credentials are in the environment
-    has_creds = 'KAGGLE_USERNAME' in os.environ and 'KAGGLE_KEY' in os.environ
+    has_creds = 'KAGGLE_USERNAME' in os.environ and 'KAGGLE_API_TOKEN' in os.environ
     
     if not has_creds:
         print("Checking authentication... (If this is a private dataset, your browser will open to log you in)")
@@ -43,8 +41,8 @@ def download_data():
     # KaggleHub downloads to a global cache.
     cached_path = kagglehub.dataset_download(KAGGLE_DATASET)
     
-    # Move the contents of the cache directly into our local ./data directory
-    local_data_dir = os.path.join(os.getcwd(), "data")
+    # Move the contents of the cache directly into root directory
+    local_data_dir = os.path.join(os.getcwd(), "./")
     
     print(f"Data downloaded to cache: {cached_path}")
     print(f"Copying files to local repository directory: {local_data_dir}...")

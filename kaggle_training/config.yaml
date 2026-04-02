@@ -6,7 +6,7 @@
 # ------------------------------------------------------------------
 # Run identity
 # ------------------------------------------------------------------
-model_id: "FL2_VQA_MT_128_256"          # Used for W&B project name & HF repo slug
+model_id: "FL2_VQA_MT_32_64_V2"          # Used for W&B project name & HF repo slug
 
 # ------------------------------------------------------------------
 # Paths — KAGGLE (used when running on Kaggle)
@@ -64,8 +64,8 @@ training:
   multi_task: true              # true = MT model (all sub-datasets); false = VQA only
 
   # LoRA
-  lora_rank:  128
-  lora_alpha: 256
+  lora_rank:  32
+  lora_alpha: 64
 
   # HuggingFace TrainingArguments
   num_train_epochs:           3

@@ -1,0 +1,11 @@
+numpy
+pandas
+opencv-python
+matplotlib
+Pillow
+torch
+transformers==4.49.0
+peft
+wandb
+huggingface-hub
+pyarrow

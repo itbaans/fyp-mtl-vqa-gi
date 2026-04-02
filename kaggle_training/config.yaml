@@ -1,0 +1,105 @@
+# ============================================================
+#  Florence-2 MTL Fine-Tuning Configuration
+#  Edit this file, then run kaggle_train.py from a notebook cell
+# ============================================================
+
+# ------------------------------------------------------------------
+# Run identity
+# ------------------------------------------------------------------
+model_id: "FL2_VQA_MT_128_256"          # Used for W&B project name & HF repo slug
+
+# ------------------------------------------------------------------
+# Paths — KAGGLE (used when running on Kaggle)
+# The script auto-detects the environment:
+#   • If /kaggle/input exists  → uses `paths`
+#   • Otherwise               → uses `local_paths`
+# ------------------------------------------------------------------
+paths:
+  data_root:      "/kaggle/input/fyp-mtl-gi-vqa"   # root of your uploaded dataset
+  output_dir:     "/kaggle/working/outputs"          # Kaggle working dir (persists between cells)
+  img_dir:        "data/images"                      # relative to data_root
+  combined_dir:   "data/combined"                    # relative to data_root
+
+  # Mask sub-directories  (relative to data_root)
+  instruments_mask_dir: "data/instruments_masks"
+  polyp_mask_dir:       "data/polyp_masks"
+  pseudo_mask_dir:      "data/pseudo_masks"
+  gradcam_mask_dir:     "data/gradcam_masks"
+
+# ------------------------------------------------------------------
+# Paths — LOCAL (used when running on your own machine)
+# All paths here are absolute. Adjust to match your local setup.
+# ------------------------------------------------------------------
+local_paths:
+  data_root:      "d:/FYP_MTL_GI_VQA"              # project root
+  output_dir:     "d:/FYP_MTL_GI_VQA/outputs"       # where checkpoints are saved
+  img_dir:        "data/images"                      # relative to data_root
+  combined_dir:   "data/combined"                    # relative to data_root
+
+  # Mask sub-directories  (relative to data_root)
+  instruments_mask_dir: "data/instruments_masks"
+  polyp_mask_dir:       "data/polyp_masks"
+  pseudo_mask_dir:      "data/pseudo_masks"
+  gradcam_mask_dir:     "data/gradcam_masks"
+
+# ------------------------------------------------------------------
+# Dataset files  (all relative to combined_dir)
+# ------------------------------------------------------------------
+datasets:
+  vqa_train_parquet:          "Kvasir-VQA-x1-train.parquet"
+  vqa_test_parquet:           "Kvasir-VQA-x1-test.parquet"
+  instruments_mask_phrases:   "instruments_mask_phrases_v2.csv"
+  polyps_mask_phrases:        "polyps_mask_phrases.csv"
+  zline_mask_phrases:         "z-line_mask_phrases.csv"
+  oesophagitis_mask_phrases:  "oesophatigis_mask_phrases.csv"
+  ulcerative_colitis_phrases: "ulcerative_colitis_masks_phrases.csv"
+  cecum_mask_phrases:         "cecum_mask_phrases.csv"
+  vqa_exp_csv:                "vqa_exp_v2.csv"
+
+# ------------------------------------------------------------------
+# Training mode
+# ------------------------------------------------------------------
+training:
+  eval_training: false          # true = use train split only & enable eval; false = use combined
+  multi_task: true              # true = MT model (all sub-datasets); false = VQA only
+
+  # LoRA
+  lora_rank:  128
+  lora_alpha: 256
+
+  # HuggingFace TrainingArguments
+  num_train_epochs:           3
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 3
+  learning_rate:              5.0e-5
+  warmup_ratio:               0.1
+  fp16:                       true
+  logging_steps:              5
+  save_steps:                 1000
+  save_total_limit:           2         # keep last 2 checkpoints
+
+# ------------------------------------------------------------------
+# Resume from checkpoint
+# ------------------------------------------------------------------
+resume:
+  enabled: false
+  # Set to a specific checkpoint path to resume from it, e.g.:
+  # checkpoint_path: "/kaggle/working/outputs/checkpoint-1000"
+  # Leave empty ("") to auto-detect the latest checkpoint in output_dir
+  checkpoint_path: ""
+
+# ------------------------------------------------------------------
+# Weights & Biases
+# ------------------------------------------------------------------
+wandb:
+  enabled: true
+  api_key: ""          # paste your W&B key here, or set WANDB_API_KEY env var
+
+# ------------------------------------------------------------------
+# Hugging Face Hub  (upload after training)
+# ------------------------------------------------------------------
+huggingface:
+  push_to_hub: false
+  api_key: ""          # paste your HF token here, or set HF_TOKEN env var
+  username: "peeache"
+  # Final repo will be:  username/model_id

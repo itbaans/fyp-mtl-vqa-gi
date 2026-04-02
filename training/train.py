@@ -3,7 +3,7 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 
 import os
 import numpy as np
-import torchf
+import torch
 
 from transformers import Trainer, TrainingArguments
 import numpy as np
@@ -147,12 +147,12 @@ else:
 training_args = TrainingArguments(
     output_dir="./outputs",
     save_strategy="steps",        # save every N steps
-    save_steps=100,               # adjust based on dataset size
+    save_steps=1000,               # adjust based on dataset size
     save_total_limit=1,           # keep only last 1 checkpoints
     logging_steps=5,
     per_device_train_batch_size=2,
     gradient_accumulation_steps=3,
-    num_train_epochs=1,
+    num_train_epochs=3,
     learning_rate=5e-5,
     warmup_ratio=0.1,
     fp16=True,

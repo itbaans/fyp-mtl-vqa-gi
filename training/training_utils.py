@@ -178,8 +178,8 @@ class KvasirVQADataset(Dataset):
                 image_path = os.path.join(self.image_dir, f"{image_id}.jpg")
                 if self.tag == 'instrument':
                     mask_path = os.path.join(self.mask_dir, f"{mask_id}")
-                elif self.tag == 'ulcerative_colitis' or tag == 'oesophagitis':
-                    mask_path = os.path.join(self.mask_dir, f"{self.tag}/{mask_id}/mask.png")
+                elif self.tag == 'ulcerative_colitis' or self.tag == 'oesophagitis':
+                    mask_path = os.path.join(self.mask_dir, f"{self.tag}/{image_id}/mask.png")
                 else:
                     mask_path = os.path.join(self.mask_dir, f"{mask_id}.jpg")
                 if not os.path.exists(image_path) or not os.path.exists(mask_path):
@@ -328,12 +328,13 @@ def collate_fn(batch: List[Dict[str, Any]], processor) -> Dict[str, torch.Tensor
         padding=True
     )
 
-    # Replace padding token id's with -100 to ignore in loss
-    labels[labels == processor.tokenizer.pad_token_id] = -100
-    inputs["labels"] = labels
-    
-    inputs['labels'] = labels['input_ids']
-    
+    # Replace padding token id's with -100 so they are ignored in the loss.
+    # Must extract input_ids as a plain tensor first — BatchEncoding does not
+    # support boolean fancy-indexing the way a raw torch.Tensor does.
+    label_ids = labels['input_ids'].clone()
+    label_ids[label_ids == processor.tokenizer.pad_token_id] = -100
+    inputs['labels'] = label_ids
+
     return inputs
 
 def load_florence_model(model_id: str, model_adapters: str = None):

@@ -15,7 +15,7 @@ model_id: "FL2_VQA_MT_128_256"          # Used for W&B project name & HF repo sl
 #   • Otherwise               → uses `local_paths`
 # ------------------------------------------------------------------
 paths:
-  data_root:      "/kaggle/input/fyp-mtl-gi-vqa"   # root of your uploaded dataset
+  data_root:      "/kaggle/input/datasets/itbaansawan/fyp-gi-vqa-mtl-data"   # root of your uploaded dataset
   output_dir:     "/kaggle/working/outputs"          # Kaggle working dir (persists between cells)
   img_dir:        "data/images"                      # relative to data_root
   combined_dir:   "data/combined"                    # relative to data_root

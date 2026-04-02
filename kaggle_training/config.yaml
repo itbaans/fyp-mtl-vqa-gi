@@ -60,7 +60,7 @@ datasets:
 # Training mode
 # ------------------------------------------------------------------
 training:
-  eval_training: false          # true = use train split only & enable eval; false = use combined
+  eval_training: true          # true = use train split only & enable eval; false = use combined
   multi_task: true              # true = MT model (all sub-datasets); false = VQA only
 
   # LoRA

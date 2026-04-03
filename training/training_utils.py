@@ -474,10 +474,38 @@ def decode_florence_string_to_polygon(coord_string: str, image_width: int, image
     return polygon
 
 def create_mask_from_polygon(polygon, image_width, image_height):
-    """Create a binary mask from polygon coordinates"""
+    """Create a binary mask from a single polygon (list of (x, y) tuples)"""
     mask = Image.new('L', (image_width, image_height), 0)
     if polygon:
         ImageDraw.Draw(mask).polygon(polygon, fill=255)
+    return mask
+
+
+def decode_florence_string_to_polygons(coord_string: str, image_width: int, image_height: int):
+    """
+    Decode a full Florence-2 coord string that may contain MULTIPLE contours.
+    Each contour is a separate sequence of <loc_x><loc_y> tokens joined without
+    spaces; contours are separated from each other by a single space.
+    Returns a list of polygon point lists.
+    """
+    polygons = []
+    for poly_str in coord_string.strip().split(" "):
+        poly_str = poly_str.strip()
+        if not poly_str:
+            continue
+        polygon = decode_florence_string_to_polygon(poly_str, image_width, image_height)
+        if polygon:
+            polygons.append(polygon)
+    return polygons
+
+
+def create_mask_from_polygons(polygons, image_width, image_height):
+    """Create a binary mask by drawing every polygon independently."""
+    mask = Image.new('L', (image_width, image_height), 0)
+    draw = ImageDraw.Draw(mask)
+    for polygon in polygons:
+        if polygon:
+            draw.polygon(polygon, fill=255)
     return mask
 
 def show_random_samples(dataset, n_samples=1):
@@ -501,9 +529,9 @@ def show_random_samples(dataset, n_samples=1):
             image = sample['image']
             coord_string = sample['answer']  # This is the coord_string
             
-            # Decode coordinates to create mask
-            polygon = decode_florence_string_to_polygon(coord_string, image.width, image.height)
-            mask = create_mask_from_polygon(polygon, image.width, image.height)
+            # Decode all contours independently so multi-contour masks render correctly
+            polygons = decode_florence_string_to_polygons(coord_string, image.width, image.height)
+            mask = create_mask_from_polygons(polygons, image.width, image.height)
             
             # Create visualization
             fig, axes = plt.subplots(1, 3, figsize=(15, 5))

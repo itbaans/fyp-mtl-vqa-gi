@@ -120,7 +120,27 @@ def main():
         apply_lora_config,
         show_random_samples,
     )
-    from transformers import Trainer, TrainingArguments
+    from transformers import Trainer, TrainingArguments, TrainerCallback
+
+    # ------------------------------------------------------------------
+    # Linux malloc_trim callback — forces glibc to return free heap pages
+    # to the OS after every N steps, preventing linear RSS growth.
+    # ------------------------------------------------------------------
+    class MallocTrimCallback(TrainerCallback):
+        def __init__(self, every_n_steps: int = 10):
+            self.every_n_steps = every_n_steps
+            try:
+                import ctypes
+                self._libc = ctypes.CDLL("libc.so.6")
+            except OSError:
+                self._libc = None  # not on Linux, no-op
+
+        def on_step_end(self, args, state, control, **kwargs):
+            if state.global_step % self.every_n_steps == 0:
+                import gc
+                gc.collect()
+                if self._libc is not None:
+                    self._libc.malloc_trim(0)  # return free pages to OS
 
     # ------------------------------------------------------------------
     # 4. Load model
@@ -292,6 +312,7 @@ def main():
         train_dataset=training_dataset,
         data_collator=FlorenceCollator(processor),
         tokenizer=processor.tokenizer,
+        callbacks=[MallocTrimCallback(every_n_steps=10)],
     )
 
     print(f"\n{'='*60}")

@@ -52,7 +52,7 @@ datasets:
   polyps_mask_phrases:        "polyps_mask_phrases.csv"
   zline_mask_phrases:         "z-line_mask_phrases.csv"
   oesophagitis_mask_phrases:  "oesophatigis_mask_phrases.csv"
-  ulcerative_colitis_phrases: "ulcerative_colitis_masks_phrases.csv"
+  ulcerative_colitis_phrases: "ulcerative_colitis_mask_phrases.csv"
   cecum_mask_phrases:         "cecum_mask_phrases.csv"
   vqa_exp_csv:                "vqa_exp_v2.csv"
 

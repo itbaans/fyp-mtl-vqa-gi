@@ -14,6 +14,7 @@ Or equivalently:
 
 import argparse
 import os
+os.environ["WANDB_DISABLED"] = "true"
 import sys
 import glob
 

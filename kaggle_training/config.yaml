@@ -74,9 +74,9 @@ training:
   learning_rate:              5.0e-5
   warmup_ratio:               0.1
   fp16:                       true
-  logging_steps:              5
+  logging_steps:              10
   save_steps:                 1000
-  save_total_limit:           2         # keep last 2 checkpoints
+  save_total_limit:           1         # keep last 2 checkpoints
 
 # ------------------------------------------------------------------
 # Resume from checkpoint
@@ -92,7 +92,7 @@ resume:
 # Weights & Biases
 # ------------------------------------------------------------------
 wandb:
-  enabled: true
+  enabled: false
   api_key: ""          # paste your W&B key here, or set WANDB_API_KEY env var
 
 # ------------------------------------------------------------------

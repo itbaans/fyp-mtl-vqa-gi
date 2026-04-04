@@ -123,25 +123,36 @@ def main():
     from transformers import Trainer, TrainingArguments, TrainerCallback
 
     # ------------------------------------------------------------------
-    # Linux malloc_trim callback — forces glibc to return free heap pages
-    # to the OS after every N steps, preventing linear RSS growth.
+    # Memory diagnostics — prints GPU (live vs cached) and CPU RSS every
+    # N steps so we can see exactly which memory segment is growing.
     # ------------------------------------------------------------------
-    class MallocTrimCallback(TrainerCallback):
+    import psutil as _psutil
+
+    class MemDiagCallback(TrainerCallback):
         def __init__(self, every_n_steps: int = 5):
             self.every_n_steps = every_n_steps
             try:
                 import ctypes
                 self._libc = ctypes.CDLL("libc.so.6")
             except OSError:
-                self._libc = None  # not on Linux, no-op
+                self._libc = None
 
         def on_step_end(self, args, state, control, **kwargs):
             if state.global_step % self.every_n_steps == 0:
                 import gc
                 gc.collect()
-                torch.cuda.empty_cache()        # release cached CUDA blocks → fixes RSS growth
+                torch.cuda.empty_cache()
                 if self._libc is not None:
-                    self._libc.malloc_trim(0)   # release CPU heap fragments
+                    self._libc.malloc_trim(0)
+
+                # ── memory snapshot ──────────────────────────────────
+                cpu_rss = _psutil.Process().memory_info().rss / 1024**3
+                lines = [f"\n[mem] step={state.global_step}  CPU_RSS={cpu_rss:.2f}GB"]
+                for i in range(torch.cuda.device_count()):
+                    alloc    = torch.cuda.memory_allocated(i)  / 1024**3
+                    reserved = torch.cuda.memory_reserved(i)   / 1024**3
+                    lines.append(f"        GPU{i}: alloc={alloc:.2f}GB  reserved={reserved:.2f}GB")
+                print("\n".join(lines), flush=True)
 
     # ------------------------------------------------------------------
     # tracemalloc callback — identifies WHERE the persistent 40MB/step
@@ -329,7 +340,7 @@ def main():
         train_dataset=training_dataset,
         data_collator=FlorenceCollator(processor),
         tokenizer=processor.tokenizer,
-        callbacks=[MallocTrimCallback(every_n_steps=1)],
+        callbacks=[MemDiagCallback(every_n_steps=5)],
     )
 
     print(f"\n{'='*60}")

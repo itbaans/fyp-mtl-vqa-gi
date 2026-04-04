@@ -12,6 +12,10 @@ Or equivalently:
                     "--config", "kaggle_training/config.yaml"], check=True)
 """
 
+repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if repo_root not in sys.path:
+    sys.path.insert(0, repo_root)
+
 import argparse
 import os
 #os.environ["WANDB_DISABLED"] = "true"
@@ -118,9 +122,6 @@ def main():
     # 3. Add project root to sys.path so training_utils can be imported
     # ------------------------------------------------------------------
     # The repo root is detected by locating this file's parent's parent.
-    repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    if repo_root not in sys.path:
-        sys.path.insert(0, repo_root)
 
     # ------------------------------------------------------------------
     # Memory diagnostics — prints GPU (live vs cached) and CPU RSS every

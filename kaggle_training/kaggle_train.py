@@ -154,9 +154,9 @@ def main():
             if state.global_step % 10 == 0 and state.global_step > 0:
                 snapshot = tracemalloc.take_snapshot()
                 top = snapshot.statistics("lineno")
-                print(f"\n[tracemalloc] Step {state.global_step} — top memory allocations:")
+                print(f"\n[tracemalloc] Step {state.global_step} — top memory allocations:", flush=True)
                 for stat in top[:10]:
-                    print(f"  {stat}")
+                    print(f"  {stat}", flush=True)
 
     # ------------------------------------------------------------------
     # 4. Load model
@@ -328,7 +328,7 @@ def main():
         train_dataset=training_dataset,
         data_collator=FlorenceCollator(processor),
         tokenizer=processor.tokenizer,
-        callbacks=[MallocTrimCallback(every_n_steps=5), TraceMallocCallback()],
+        callbacks=[MallocTrimCallback(every_n_steps=1)],
     )
 
     print(f"\n{'='*60}")

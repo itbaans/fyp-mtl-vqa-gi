@@ -14,7 +14,7 @@ Or equivalently:
 
 import argparse
 import os
-os.environ["WANDB_DISABLED"] = "true"
+#os.environ["WANDB_DISABLED"] = "true"
 import sys
 import glob
 
@@ -329,7 +329,7 @@ def main():
         fp16=tr_cfg.get("fp16", True),
         remove_unused_columns=False,
         report_to=report_to,
-        dataloader_pin_memory=tr_cfg.get("dataloader_pin_memory", False),
+        #dataloader_pin_memory=tr_cfg.get("dataloader_pin_memory", False),
     )
 
     # ------------------------------------------------------------------
@@ -341,7 +341,7 @@ def main():
         train_dataset=training_dataset,
         data_collator=FlorenceCollator(processor),
         tokenizer=processor.tokenizer,
-        callbacks=[MemDiagCallback(every_n_steps=5)],
+        #callbacks=[MemDiagCallback(every_n_steps=5)],
     )
 
     print(f"\n{'='*60}")

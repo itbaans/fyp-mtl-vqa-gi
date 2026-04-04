@@ -70,7 +70,7 @@ training:
   # HuggingFace TrainingArguments
   num_train_epochs:           3
   per_device_train_batch_size: 2
-  gradient_accumulation_steps: 3
+  gradient_accumulation_steps: 4
   learning_rate:              5.0e-5
   warmup_ratio:               0.1
   fp16:                       true
@@ -93,7 +93,7 @@ resume:
 # Weights & Biases
 # ------------------------------------------------------------------
 wandb:
-  enabled: false
+  enabled: true
   api_key: ""          # paste your W&B key here, or set WANDB_API_KEY env var
 
 # ------------------------------------------------------------------

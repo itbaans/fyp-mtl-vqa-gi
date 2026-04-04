@@ -127,7 +127,7 @@ def main():
     # to the OS after every N steps, preventing linear RSS growth.
     # ------------------------------------------------------------------
     class MallocTrimCallback(TrainerCallback):
-        def __init__(self, every_n_steps: int = 10):
+        def __init__(self, every_n_steps: int = 5):
             self.every_n_steps = every_n_steps
             try:
                 import ctypes
@@ -141,6 +141,23 @@ def main():
                 gc.collect()
                 if self._libc is not None:
                     self._libc.malloc_trim(0)  # return free pages to OS
+
+    # ------------------------------------------------------------------
+    # tracemalloc callback — identifies WHERE the persistent 40MB/step
+    # growth is coming from. Prints top 10 allocation sites every 50 steps.
+    # Disable once the leak is identified.
+    # ------------------------------------------------------------------
+    import tracemalloc
+    tracemalloc.start(10)  # keep 10-frame traceback
+
+    class TraceMallocCallback(TrainerCallback):
+        def on_step_end(self, args, state, control, **kwargs):
+            if state.global_step % 50 == 0 and state.global_step > 0:
+                snapshot = tracemalloc.take_snapshot()
+                top = snapshot.statistics("lineno")
+                print(f"\n[tracemalloc] Step {state.global_step} — top memory allocations:")
+                for stat in top[:10]:
+                    print(f"  {stat}")
 
     # ------------------------------------------------------------------
     # 4. Load model
@@ -312,7 +329,7 @@ def main():
         train_dataset=training_dataset,
         data_collator=FlorenceCollator(processor),
         tokenizer=processor.tokenizer,
-        callbacks=[MallocTrimCallback(every_n_steps=10)],
+        callbacks=[MallocTrimCallback(every_n_steps=5), TraceMallocCallback()],
     )
 
     print(f"\n{'='*60}")

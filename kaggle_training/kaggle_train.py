@@ -329,7 +329,7 @@ def main():
         train_dataset=training_dataset,
         data_collator=FlorenceCollator(processor),
         tokenizer=processor.tokenizer,
-        callbacks=[MallocTrimCallback(every_n_steps=5), TraceMallocCallback()],
+        callbacks=[MallocTrimCallback(every_n_steps=5)],
     )
 
     print(f"\n{'='*60}")

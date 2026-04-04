@@ -148,7 +148,6 @@ def main():
     # Disable once the leak is identified.
     # ------------------------------------------------------------------
     import tracemalloc
-    tracemalloc.start(10)  # keep 10-frame traceback
 
     class TraceMallocCallback(TrainerCallback):
         def on_step_end(self, args, state, control, **kwargs):
@@ -337,6 +336,9 @@ def main():
     print(f"  Output dir:        {output_dir}")
     print(f"  Resume checkpoint: {resume_from_checkpoint}")
     print(f"{'='*60}\n")
+
+    # Start tracemalloc HERE — after datasets are built, only tracks training
+    tracemalloc.start(3)  # nframes=3 keeps overhead low (10 was too slow)
 
     trainer.train(resume_from_checkpoint=resume_from_checkpoint)
 

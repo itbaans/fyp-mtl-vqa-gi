@@ -245,11 +245,17 @@ class KvasirVQADataset(Dataset):
                 task_prompt = self.task_prefix_to_prompt[self.task]
                 roi_des = sample['answer']
 
-                if roi_des != "":
+                # pd.notna() correctly handles NaN (float), None, and empty string.
+                # Plain `!= None` misses NaN values loaded from CSV by pandas.
+                if pd.notna(roi_des) and str(roi_des).strip():
                     question = f"Give visual description of {roi_des}"
                     prompt = task_prompt.format(input=question)
                 else:
-                    if sample['roi_type'] == "text":
+                    roi_type = sample.get('roi_type', None)
+                    # Guard against NaN roi_type as well
+                    roi_type = str(roi_type).strip() if pd.notna(roi_type) else ""
+
+                    if roi_type == "text":
                         text_answers = [
                             "Text visible on the image",
                             "textual content observed",
@@ -264,7 +270,7 @@ class KvasirVQADataset(Dataset):
                         ]
                         question = f"Give visual description of {random.choice(text_answers)}"
                         prompt = task_prompt.format(input=question)
-                    elif sample['roi_type'] in ["box_artifect", "box_artifact"]:
+                    elif roi_type in ["box_artifect", "box_artifact"]:
                         artifact_answers = [
                             "evidence of box-like artifacts",
                             "evidence of box-shaped artifacts observed",
@@ -310,33 +316,6 @@ class KvasirVQADataset(Dataset):
             }
 
 
-# def collate_fn(batch: List[Dict[str, Any]], processor) -> Dict[str, torch.Tensor]:
-#     """Custom collate function to handle variable length sequences"""
-#     prompts = [item['prompt'] for item in batch]
-#     answers = [item['answer'] for item in batch]
-#     images = [item['image'] for item in batch]
-
-#     inputs = processor(
-#         text=prompts,
-#         images=images,
-#         return_tensors="pt",
-#         padding=True,
-#     )
-#     labels = processor.tokenizer(
-#         text=answers,
-#         return_tensors="pt",
-#         padding=True
-#     )
-
-#     # Replace padding token id's with -100 so they are ignored in the loss.
-#     # Must extract input_ids as a plain tensor first — BatchEncoding does not
-#     # support boolean fancy-indexing the way a raw torch.Tensor does.
-#     label_ids = labels['input_ids'].clone()
-#     label_ids[label_ids == processor.tokenizer.pad_token_id] = -100
-#     inputs['labels'] = label_ids
-
-#     return inputs
-
 def collate_fn(batch: List[Dict[str, Any]], processor) -> Dict[str, torch.Tensor]:
     """Custom collate function to handle variable length sequences"""
     prompts = [item['prompt'] for item in batch]
@@ -355,13 +334,40 @@ def collate_fn(batch: List[Dict[str, Any]], processor) -> Dict[str, torch.Tensor
         padding=True
     )
 
-    # Replace padding token id's with -100 to ignore in loss
-    labels[labels == processor.tokenizer.pad_token_id] = -100
-    inputs["labels"] = labels
-    
-    inputs['labels'] = labels['input_ids']
-    
+    # Replace padding token id's with -100 so they are ignored in the loss.
+    # Must extract input_ids as a plain tensor first — BatchEncoding does not
+    # support boolean fancy-indexing the way a raw torch.Tensor does.
+    label_ids = labels['input_ids'].clone()
+    label_ids[label_ids == processor.tokenizer.pad_token_id] = -100
+    inputs['labels'] = label_ids
+
     return inputs
+
+# def collate_fn(batch: List[Dict[str, Any]], processor) -> Dict[str, torch.Tensor]:
+#     """Custom collate function to handle variable length sequences"""
+#     prompts = [item['prompt'] for item in batch]
+#     answers = [item['answer'] for item in batch]
+#     images = [item['image'] for item in batch]
+
+#     inputs = processor(
+#         text=prompts,
+#         images=images,
+#         return_tensors="pt",
+#         padding=True,
+#     )
+#     labels = processor.tokenizer(
+#         text=answers,
+#         return_tensors="pt",
+#         padding=True
+#     )
+
+#     # Replace padding token id's with -100 to ignore in loss
+#     labels[labels == processor.tokenizer.pad_token_id] = -100
+#     inputs["labels"] = labels
+    
+#     inputs['labels'] = labels['input_ids']
+    
+#     return inputs
 
 def load_florence_model(model_id: str, model_adapters: str = None):
     model = AutoModelForCausalLM.from_pretrained(model_id, trust_remote_code=True)

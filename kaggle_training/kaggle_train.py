@@ -139,8 +139,9 @@ def main():
             if state.global_step % self.every_n_steps == 0:
                 import gc
                 gc.collect()
+                torch.cuda.empty_cache()        # release cached CUDA blocks → fixes RSS growth
                 if self._libc is not None:
-                    self._libc.malloc_trim(0)  # return free pages to OS
+                    self._libc.malloc_trim(0)   # release CPU heap fragments
 
     # ------------------------------------------------------------------
     # tracemalloc callback — identifies WHERE the persistent 40MB/step

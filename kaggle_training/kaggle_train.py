@@ -11,13 +11,13 @@ Or equivalently:
     subprocess.run(["python", "kaggle_training/kaggle_train.py",
                     "--config", "kaggle_training/config.yaml"], check=True)
 """
+import os
 
 repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if repo_root not in sys.path:
     sys.path.insert(0, repo_root)
 
 import argparse
-import os
 #os.environ["WANDB_DISABLED"] = "true"
 import sys
 import glob

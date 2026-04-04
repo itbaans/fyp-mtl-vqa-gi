@@ -373,7 +373,11 @@ def load_florence_model(model_id: str, model_adapters: str = None):
     model = AutoModelForCausalLM.from_pretrained(model_id, trust_remote_code=True)
     processor = AutoProcessor.from_pretrained(model_id, trust_remote_code=True)
     if model_adapters:
-        model = PeftModel.from_pretrained(model, model_adapters)
+        model = PeftModel.from_pretrained(
+            model,
+            model_adapters,
+            is_trainable=True
+        )
     return model, processor
 
 def get_florence2_lora_targets(model):

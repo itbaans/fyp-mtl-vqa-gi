@@ -23,6 +23,16 @@ import pandas as pd
 import torch
 import yaml
 
+from training.training_utils import (
+    FlorenceCollator,
+    KvasirVQADataset,
+    load_florence_model,
+    get_florence2_lora_targets,
+    apply_lora_config,
+    show_random_samples,
+)
+from transformers import Trainer, TrainingArguments, TrainerCallback
+
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
@@ -111,16 +121,6 @@ def main():
     repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     if repo_root not in sys.path:
         sys.path.insert(0, repo_root)
-
-    from training.training_utils import (
-        FlorenceCollator,
-        KvasirVQADataset,
-        load_florence_model,
-        get_florence2_lora_targets,
-        apply_lora_config,
-        show_random_samples,
-    )
-    from transformers import Trainer, TrainingArguments, TrainerCallback
 
     # ------------------------------------------------------------------
     # Memory diagnostics — prints GPU (live vs cached) and CPU RSS every

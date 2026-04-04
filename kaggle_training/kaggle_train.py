@@ -151,7 +151,7 @@ def main():
 
     class TraceMallocCallback(TrainerCallback):
         def on_step_end(self, args, state, control, **kwargs):
-            if state.global_step % 50 == 0 and state.global_step > 0:
+            if state.global_step % 10 == 0 and state.global_step > 0:
                 snapshot = tracemalloc.take_snapshot()
                 top = snapshot.statistics("lineno")
                 print(f"\n[tracemalloc] Step {state.global_step} — top memory allocations:")

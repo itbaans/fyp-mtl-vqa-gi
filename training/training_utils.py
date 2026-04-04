@@ -310,6 +310,33 @@ class KvasirVQADataset(Dataset):
             }
 
 
+# def collate_fn(batch: List[Dict[str, Any]], processor) -> Dict[str, torch.Tensor]:
+#     """Custom collate function to handle variable length sequences"""
+#     prompts = [item['prompt'] for item in batch]
+#     answers = [item['answer'] for item in batch]
+#     images = [item['image'] for item in batch]
+
+#     inputs = processor(
+#         text=prompts,
+#         images=images,
+#         return_tensors="pt",
+#         padding=True,
+#     )
+#     labels = processor.tokenizer(
+#         text=answers,
+#         return_tensors="pt",
+#         padding=True
+#     )
+
+#     # Replace padding token id's with -100 so they are ignored in the loss.
+#     # Must extract input_ids as a plain tensor first — BatchEncoding does not
+#     # support boolean fancy-indexing the way a raw torch.Tensor does.
+#     label_ids = labels['input_ids'].clone()
+#     label_ids[label_ids == processor.tokenizer.pad_token_id] = -100
+#     inputs['labels'] = label_ids
+
+#     return inputs
+
 def collate_fn(batch: List[Dict[str, Any]], processor) -> Dict[str, torch.Tensor]:
     """Custom collate function to handle variable length sequences"""
     prompts = [item['prompt'] for item in batch]
@@ -328,13 +355,12 @@ def collate_fn(batch: List[Dict[str, Any]], processor) -> Dict[str, torch.Tensor
         padding=True
     )
 
-    # Replace padding token id's with -100 so they are ignored in the loss.
-    # Must extract input_ids as a plain tensor first — BatchEncoding does not
-    # support boolean fancy-indexing the way a raw torch.Tensor does.
-    label_ids = labels['input_ids'].clone()
-    label_ids[label_ids == processor.tokenizer.pad_token_id] = -100
-    inputs['labels'] = label_ids
-
+    # Replace padding token id's with -100 to ignore in loss
+    labels[labels == processor.tokenizer.pad_token_id] = -100
+    inputs["labels"] = labels
+    
+    inputs['labels'] = labels['input_ids']
+    
     return inputs
 
 def load_florence_model(model_id: str, model_adapters: str = None):

@@ -329,6 +329,7 @@ def main():
         fp16=tr_cfg.get("fp16", True),
         remove_unused_columns=False,
         report_to=report_to,
+        dataloader_pin_memory=tr_cfg.get("dataloader_pin_memory", False),
     )
 
     # ------------------------------------------------------------------

@@ -339,7 +339,7 @@ def main():
     print(f"{'='*60}\n")
 
     # Start tracemalloc HERE — after datasets are built, only tracks training
-    tracemalloc.start(3)  # nframes=3 keeps overhead low (10 was too slow)
+    #tracemalloc.start(3)  # nframes=3 keeps overhead low (10 was too slow)
 
     trainer.train(resume_from_checkpoint=resume_from_checkpoint)
 
